@@ -1,0 +1,751 @@
+CRITICAL - 2025-05-27 00:12:40 --> Error: Class "App\Models\ServicesModel" not found
+[Method: GET, Route: member/dashboard]
+in APPPATH\Controllers\Member.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 00:13:01 --> ErrorException: Undefined variable $serviceModel
+[Method: GET, Route: member/dashboard]
+in APPPATH\Controllers\Member.php on line 46.
+ 1 APPPATH\Controllers\Member.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $serviceModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Member.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 00:14:32 --> ErrorException: Undefined array key "nama_produk"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 39.
+ 1 APPPATH\Views\member\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_produk"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(53): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 00:16:46 --> ErrorException: Undefined array key "stok"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 44.
+ 1 APPPATH\Views\member\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(53): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 00:17:03 --> ErrorException: Undefined array key "stok"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 74.
+ 1 APPPATH\Views\member\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(53): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 00:17:10 --> ErrorException: Undefined array key "stok"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 77.
+ 1 APPPATH\Views\member\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stok"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 77)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(53): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 00:20:52 --> ErrorException: Cannot redeclare App\Controllers\Member::beliProduk()
+[Method: POST, Route: member/beli-layanan]
+in APPPATH\Controllers\Member.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-05-27 01:05:33 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PegawaiModel::getPegawaiByInvoice
+[Method: GET, Route: admin/view_invoices/64]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Admin.php(370): CodeIgniter\Model->__call('getPegawaiByInvoice', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('64')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:15:31 --> Error: Call to a member function join() on null
+[Method: GET, Route: admin/view_invoices/64]
+in APPPATH\Controllers\Admin.php on line 364.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('64')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-27 01:15:57 --> mysqli_sql_exception: Table 'barbershop.pegawai' doesn't exist in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '64')
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(364): CodeIgniter\BaseModel->find('64')
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->view('64')
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#14 {main}
+CRITICAL - 2025-05-27 01:15:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'barbershop.pegawai' doesn't exist
+[Method: GET, Route: admin/view_invoices/64]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblinvoice`
+JOIN `pegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+WHERE `tblinvoice`.`id_invoice` = :tblinvoice.id_invoice:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '64')
+ 4 APPPATH\Controllers\Admin.php(364): CodeIgniter\BaseModel->find('64')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('64')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:15:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'barbershop.pegawai' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblinvoice`
+JOIN `pegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+WHERE `tblinvoice`.`id_invoice` = \'64\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblinvoice`
+JOIN `pegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+WHERE `tblinvoice`.`id_invoice` = \'64\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblinvoice`
+JOIN `pegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+WHERE `tblinvoice`.`id_invoice` = :tblinvoice.id_invoice:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '64')
+ 6 APPPATH\Controllers\Admin.php(364): CodeIgniter\BaseModel->find('64')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('64')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:15:57 --> [Caused by] mysqli_sql_exception: Table 'barbershop.pegawai' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tblinvoice`
+JOIN `pegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+WHERE `tblinvoice`.`id_invoice` = \'64\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblinvoice`
+JOIN `pegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+WHERE `tblinvoice`.`id_invoice` = \'64\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblinvoice`
+JOIN `pegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+WHERE `tblinvoice`.`id_invoice` = \'64\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblinvoice`
+JOIN `pegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+WHERE `tblinvoice`.`id_invoice` = :tblinvoice.id_invoice:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '64')
+ 7 APPPATH\Controllers\Admin.php(364): CodeIgniter\BaseModel->find('64')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('64')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-27 01:20:34 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `fas` FOREIGN KEY (`id_pegawai`) REFERENCES `tblpegawai` (`id_pegawai`) ON DELETE RESTRICT ON UPDATE RESTRICT) in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Kasir.php(113): CodeIgniter\Model->insert(Array)
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Kasir->assignPost('70')
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#15 {main}
+CRITICAL - 2025-05-27 01:20:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `fas` FOREIGN KEY (`id_pegawai`) REFERENCES `tblpegawai` (`id_pegawai`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+[Method: POST, Route: kasir/assign/70]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (:id_user:, :id_service:, :PostingDate:, :BillingId:, :AmountPaid:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kasir.php(113): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir->assignPost('70')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:20:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `fas` FOREIGN KEY (`id_pegawai`) REFERENCES `tblpegawai` (`id_pegawai`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (\'70\', \'29\', \'2025-05-27 01:20:33\', 3583431906, \'15000\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (\'70\', \'29\', \'2025-05-27 01:20:33\', 3583431906, \'15000\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (:id_user:, :id_service:, :PostingDate:, :BillingId:, :AmountPaid:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Kasir.php(113): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir->assignPost('70')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:20:34 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `fas` FOREIGN KEY (`id_pegawai`) REFERENCES `tblpegawai` (`id_pegawai`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (\'70\', \'29\', \'2025-05-27 01:20:33\', 3583431906, \'15000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (\'70\', \'29\', \'2025-05-27 01:20:33\', 3583431906, \'15000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (\'70\', \'29\', \'2025-05-27 01:20:33\', 3583431906, \'15000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (:id_user:, :id_service:, :PostingDate:, :BillingId:, :AmountPaid:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kasir.php(113): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir->assignPost('70')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-27 01:20:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `fas` FOREIGN KEY (`id_pegawai`) REFERENCES `tblpegawai` (`id_pegawai`) ON DELETE RESTRICT ON UPDATE RESTRICT) in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Kasir.php(113): CodeIgniter\Model->insert(Array)
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Kasir->assignPost('70')
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#15 {main}
+CRITICAL - 2025-05-27 01:20:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `fas` FOREIGN KEY (`id_pegawai`) REFERENCES `tblpegawai` (`id_pegawai`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+[Method: POST, Route: kasir/assign/70]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (:id_user:, :id_service:, :PostingDate:, :BillingId:, :AmountPaid:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kasir.php(113): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir->assignPost('70')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:20:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `fas` FOREIGN KEY (`id_pegawai`) REFERENCES `tblpegawai` (`id_pegawai`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (\'70\', \'29\', \'2025-05-27 01:20:55\', 4020025949, \'15000\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (\'70\', \'29\', \'2025-05-27 01:20:55\', 4020025949, \'15000\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (:id_user:, :id_service:, :PostingDate:, :BillingId:, :AmountPaid:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Kasir.php(113): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir->assignPost('70')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:20:55 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `fas` FOREIGN KEY (`id_pegawai`) REFERENCES `tblpegawai` (`id_pegawai`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (\'70\', \'29\', \'2025-05-27 01:20:55\', 4020025949, \'15000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (\'70\', \'29\', \'2025-05-27 01:20:55\', 4020025949, \'15000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (\'70\', \'29\', \'2025-05-27 01:20:55\', 4020025949, \'15000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `PostingDate`, `BillingId`, `AmountPaid`) VALUES (:id_user:, :id_service:, :PostingDate:, :BillingId:, :AmountPaid:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kasir.php(113): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir->assignPost('70')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:26:33 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\InvoiceModel::getAll
+[Method: GET, Route: admin/view_invoices/73]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Admin.php(364): CodeIgniter\Model->__call('getAll', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('73')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:26:44 --> ErrorException: Undefined variable $session
+[Method: GET, Route: admin/view_invoices/73]
+in APPPATH\Controllers\Admin.php on line 374.
+ 1 APPPATH\Controllers\Admin.php(374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 374)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('73')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:26:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoices/view_invoices.php"
+[Method: GET, Route: admin/view_invoices/73]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoices/view_invoices.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('invoices/view_invoices', [], true)
+ 3 APPPATH\Controllers\Admin.php(379): view('invoices/view_invoices', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('73')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:27:12 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+[Method: GET, Route: admin/view_invoices/73]
+in APPPATH\Views\admin\view_invoices.php on line 3.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 4 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('73')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:27:38 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+[Method: GET, Route: admin/view_invoices/73]
+in APPPATH\Views\admin\view_invoices.php on line 3.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 4 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('73')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:28:18 --> ErrorException: Undefined property: CodeIgniter\Database\MySQLi\Result::$id_invoice
+[Method: GET, Route: admin/view_invoices/73]
+in APPPATH\Views\admin\view_invoices.php on line 3.
+ 1 APPPATH\Views\admin\view_invoices.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$id_invoice', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 5 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('73')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:28:27 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+[Method: GET, Route: admin/view_invoices/73]
+in APPPATH\Views\admin\view_invoices.php on line 3.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 4 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('73')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:48:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/header.php"
+[Method: GET, Route: admin/view_invoices/76]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/header.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('templates/header', null, true)
+ 3 APPPATH\Views\admin\view_invoices.php(6): CodeIgniter\View\View->include('templates/header')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 7 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:49:18 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/view_invoices/76]
+in APPPATH\Views\admin\view_invoices.php on line 20.
+ 1 APPPATH\Views\admin\view_invoices.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 5 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:49:31 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: admin/view_invoices/76]
+in APPPATH\Views\admin\view_invoices.php on line 20.
+ 1 APPPATH\Views\admin\view_invoices.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 5 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:49:37 --> ErrorException: Undefined array key "number"
+[Method: GET, Route: admin/view_invoices/76]
+in APPPATH\Views\admin\view_invoices.php on line 21.
+ 1 APPPATH\Views\admin\view_invoices.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "number"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 5 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:49:49 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: admin/view_invoices/76]
+in APPPATH\Views\admin\view_invoices.php on line 22.
+ 1 APPPATH\Views\admin\view_invoices.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 5 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:49:53 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: admin/view_invoices/76]
+in APPPATH\Views\admin\view_invoices.php on line 22.
+ 1 APPPATH\Views\admin\view_invoices.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 5 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:51:03 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: admin/view_invoices/76]
+in APPPATH\Views\admin\view_invoices.php on line 36.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 4 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:51:48 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: admin/view_invoices/76]
+in APPPATH\Views\admin\view_invoices.php on line 36.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 4 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:51:54 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: admin/view_invoices/76]
+in APPPATH\Views\admin\view_invoices.php on line 40.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 4 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:52:16 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: admin/view_invoices/76]
+in APPPATH\Views\admin\view_invoices.php on line 39.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 4 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-27 01:53:20 --> mysqli_sql_exception: Not unique table/alias: 'tblservices' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(364): CodeIgniter\BaseModel->first()
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#14 {main}
+CRITICAL - 2025-05-27 01:53:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'tblservices'
+[Method: GET, Route: admin/view_invoices/76]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblinvoice`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`id_invoice` = :tblinvoice.id_invoice:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Admin.php(364): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:53:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'tblservices'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblinvoice`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`id_invoice` = \'76\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblinvoice`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`id_invoice` = \'76\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblinvoice`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`id_invoice` = :tblinvoice.id_invoice:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Admin.php(364): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:53:20 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'tblservices'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tblinvoice`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`id_invoice` = \'76\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblinvoice`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`id_invoice` = \'76\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblinvoice`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`id_invoice` = \'76\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblinvoice`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblinvoice`.`id_pegawai`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`id_invoice` = :tblinvoice.id_invoice:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Admin.php(364): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:54:13 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: admin/view_invoices/76]
+in APPPATH\Views\admin\view_invoices.php on line 39.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 4 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:54:16 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: admin/view_invoices/76]
+in APPPATH\Views\admin\view_invoices.php on line 39.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 4 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:54:40 --> ErrorException: Undefined variable $row
+[Method: GET, Route: admin/view_invoices/76]
+in APPPATH\Views\admin\view_invoices.php on line 37.
+ 1 APPPATH\Views\admin\view_invoices.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 5 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:54:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/footer.php"
+[Method: GET, Route: admin/view_invoices/76]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('templates/footer', null, true)
+ 3 APPPATH\Views\admin\view_invoices.php(54): CodeIgniter\View\View->include('templates/footer')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 7 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-27 01:55:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/template/footer.php"
+[Method: GET, Route: admin/view_invoices/76]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/template/footer.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('admin/template/footer', null, true)
+ 3 APPPATH\Views\admin\view_invoices.php(54): CodeIgniter\View\View->include('admin/template/footer')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 7 APPPATH\Controllers\Admin.php(379): view('admin/view_invoices', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('76')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')

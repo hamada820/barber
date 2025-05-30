@@ -1,0 +1,1359 @@
+CRITICAL - 2025-05-19 01:38:17 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: admin/memberList]
+in APPPATH\Views\admin\memberList.php on line 20.
+ 1 APPPATH\Views\admin\memberList.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\memberList.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\memberList.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/memberlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(314): view('admin/memberlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->memberList()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 01:39:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout.php"
+[Method: GET, Route: admin/memberList]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/layout.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('admin/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/memberlist', [], true)
+ 4 APPPATH\Controllers\Admin.php(314): view('admin/memberlist', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->memberList()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 01:43:43 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: admin/memberList]
+in APPPATH\Views\admin\memberList.php on line 41.
+ 1 APPPATH\Views\admin\memberList.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\memberList.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\memberList.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/memberlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(314): view('admin/memberlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->memberList()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 01:45:03 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: admin/memberList]
+in APPPATH\Views\admin\memberList.php on line 41.
+ 1 APPPATH\Views\admin\memberList.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\memberList.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\memberList.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/memberlist', [], true)
+ 5 APPPATH\Controllers\Admin.php(314): view('admin/memberlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->memberList()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:00:29 --> Error: Class "App\Controllers\InvoiceModel" not found
+[Method: GET, Route: admin/invoices]
+in APPPATH\Controllers\Admin.php on line 336.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:01:59 --> ErrorException: Undefined variable $invoiceModel
+[Method: GET, Route: admin/invoices]
+in APPPATH\Controllers\Admin.php on line 344.
+ 1 APPPATH\Controllers\Admin.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoiceModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 344)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:02:36 --> ErrorException: Undefined variable $InvoiceModel
+[Method: GET, Route: admin/invoices]
+in APPPATH\Controllers\Admin.php on line 344.
+ 1 APPPATH\Controllers\Admin.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $InvoiceModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 344)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:02:42 --> ErrorException: Undefined variable $invoicesModel
+[Method: GET, Route: admin/invoices]
+in APPPATH\Controllers\Admin.php on line 344.
+ 1 APPPATH\Controllers\Admin.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoicesModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 344)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:03:11 --> ErrorException: Undefined variable $invoiceModel
+[Method: GET, Route: admin/invoices]
+in APPPATH\Controllers\Admin.php on line 344.
+ 1 APPPATH\Controllers\Admin.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoiceModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 344)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:03:36 --> ErrorException: Undefined variable $invoiceModel
+[Method: GET, Route: admin/invoices]
+in APPPATH\Controllers\Admin.php on line 344.
+ 1 APPPATH\Controllers\Admin.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoiceModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 344)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:03:44 --> ErrorException: Undefined variable $invoiceModel
+[Method: GET, Route: admin/invoices]
+in APPPATH\Controllers\Admin.php on line 344.
+ 1 APPPATH\Controllers\Admin.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoiceModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 344)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:03:52 --> ErrorException: Undefined variable $InvoiceModel
+[Method: GET, Route: admin/invoices]
+in APPPATH\Controllers\Admin.php on line 344.
+ 1 APPPATH\Controllers\Admin.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $InvoiceModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 344)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:03:59 --> ErrorException: Undefined variable $invoicesModel
+[Method: GET, Route: admin/invoices]
+in APPPATH\Controllers\Admin.php on line 344.
+ 1 APPPATH\Controllers\Admin.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoicesModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 344)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:06:46 --> ErrorException: Undefined variable $invoiceModel
+[Method: GET, Route: admin/invoices]
+in APPPATH\Controllers\Admin.php on line 344.
+ 1 APPPATH\Controllers\Admin.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoiceModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 344)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-19 02:10:05 --> mysqli_sql_exception: Unknown column 'users.username' in 'field list' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblinvo...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvo...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvo...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvo...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#14 {main}
+CRITICAL - 2025-05-19 02:10:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.username' in 'field list'
+[Method: GET, Route: admin/invoices]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.*, `users`.`username`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:10:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvoice`.*, `users`.`username`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvoice`.*, `users`.`username`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.*, `users`.`username`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:10:05 --> [Caused by] mysqli_sql_exception: Unknown column 'users.username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblinvoice`.*, `users`.`username`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvoice`.*, `users`.`username`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvoice`.*, `users`.`username`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.*, `users`.`username`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-19 02:10:14 --> mysqli_sql_exception: Unknown column 'users.id' in 'on clause' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblinvo...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvo...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvo...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvo...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#14 {main}
+CRITICAL - 2025-05-19 02:10:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.id' in 'on clause'
+[Method: GET, Route: admin/invoices]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.*, `users`.`nama`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:10:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvoice`.*, `users`.`nama`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvoice`.*, `users`.`nama`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.*, `users`.`nama`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:10:14 --> [Caused by] mysqli_sql_exception: Unknown column 'users.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblinvoice`.*, `users`.`nama`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvoice`.*, `users`.`nama`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvoice`.*, `users`.`nama`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.*, `users`.`nama`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:10:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/invoice_list.php"
+[Method: GET, Route: admin/invoices]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/invoice_list.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/invoice_list', [], true)
+ 3 APPPATH\Controllers\Admin.php(340): view('admin/invoice_list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:10:34 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: admin/invoices]
+in APPPATH\Views\admin\invoices.php on line 30.
+ 1 APPPATH\Views\admin\invoices.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\invoices.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\invoices.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/invoices', [], true)
+ 5 APPPATH\Controllers\Admin.php(340): view('admin/invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:10:53 --> ErrorException: Undefined array key "PointUsed"
+[Method: GET, Route: admin/invoices]
+in APPPATH\Views\admin\invoices.php on line 33.
+ 1 APPPATH\Views\admin\invoices.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PointUsed"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\invoices.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\invoices.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/invoices', [], true)
+ 5 APPPATH\Controllers\Admin.php(340): view('admin/invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-19 02:18:42 --> mysqli_sql_exception: Unknown column 'users.username' in 'field list' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblinvo...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvo...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvo...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvo...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#14 {main}
+CRITICAL - 2025-05-19 02:18:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.username' in 'field list'
+[Method: GET, Route: admin/invoices]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.*, `users`.`username`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:18:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvoice`.*, `users`.`username`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvoice`.*, `users`.`username`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.*, `users`.`username`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:18:42 --> [Caused by] mysqli_sql_exception: Unknown column 'users.username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblinvoice`.*, `users`.`username`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvoice`.*, `users`.`username`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvoice`.*, `users`.`username`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.*, `users`.`username`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-19 02:18:55 --> mysqli_sql_exception: Unknown column 'users.id' in 'on clause' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblinvo...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvo...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvo...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvo...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#14 {main}
+CRITICAL - 2025-05-19 02:18:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.id' in 'on clause'
+[Method: GET, Route: admin/invoices]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.*, `users`.`nama`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:18:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvoice`.*, `users`.`nama`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvoice`.*, `users`.`nama`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.*, `users`.`nama`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:18:55 --> [Caused by] mysqli_sql_exception: Unknown column 'users.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblinvoice`.*, `users`.`nama`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvoice`.*, `users`.`nama`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvoice`.*, `users`.`nama`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.*, `users`.`nama`, `users`.`email`, `tblservices`.`ServiceName`
+FROM `tblinvoice`
+LEFT JOIN `users` ON `users`.`id` = `tblinvoice`.`id_user`
+LEFT JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin.php(338): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:19:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/invoice_list.php"
+[Method: GET, Route: admin/invoices]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/invoice_list.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/invoice_list', [], true)
+ 3 APPPATH\Controllers\Admin.php(340): view('admin/invoice_list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:39:50 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\InvoiceModel::getCustomerByInvoice
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Admin.php(361): CodeIgniter\Model->__call('getCustomerByInvoice', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-19 02:43:28 --> mysqli_sql_exception: Table 'barbershop.tblinvoices' doesn't exist in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `u`.`nam...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`nam...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`nam...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`nam...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Models\InvoiceModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(355): App\Models\InvoiceModel->getCustomerByInvoice('51')
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#13 {main}
+CRITICAL - 2025-05-19 02:43:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'barbershop.tblinvoices' doesn't exist
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoices` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = :i.BillingId:', [...], false)
+ 2 APPPATH\Models\InvoiceModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(355): App\Models\InvoiceModel->getCustomerByInvoice('51')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:43:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'barbershop.tblinvoices' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoices` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoices` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoices` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = :i.BillingId:', [...], false)
+ 4 APPPATH\Models\InvoiceModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin.php(355): App\Models\InvoiceModel->getCustomerByInvoice('51')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:43:28 --> [Caused by] mysqli_sql_exception: Table 'barbershop.tblinvoices' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoices` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoices` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoices` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoices` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = :i.BillingId:', [...], false)
+ 5 APPPATH\Models\InvoiceModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(355): App\Models\InvoiceModel->getCustomerByInvoice('51')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-19 02:44:15 --> mysqli_sql_exception: Unknown column 'u.id' in 'on clause' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `u`.`nam...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`nam...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`nam...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`nam...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Models\InvoiceModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(355): App\Models\InvoiceModel->getCustomerByInvoice('51')
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#13 {main}
+CRITICAL - 2025-05-19 02:44:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'u.id' in 'on clause'
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = :i.BillingId:', [...], false)
+ 2 APPPATH\Models\InvoiceModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(355): App\Models\InvoiceModel->getCustomerByInvoice('51')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:44:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'u.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = :i.BillingId:', [...], false)
+ 4 APPPATH\Models\InvoiceModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin.php(355): App\Models\InvoiceModel->getCustomerByInvoice('51')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:44:15 --> [Caused by] mysqli_sql_exception: Unknown column 'u.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id` = `i`.`Userid`
+WHERE `i`.`BillingId` = :i.BillingId:', [...], false)
+ 5 APPPATH\Models\InvoiceModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(355): App\Models\InvoiceModel->getCustomerByInvoice('51')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-19 02:44:37 --> mysqli_sql_exception: Unknown column 'i.Userid' in 'on clause' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `u`.`nam...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`nam...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`nam...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`nam...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Models\InvoiceModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(355): App\Models\InvoiceModel->getCustomerByInvoice('51')
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#13 {main}
+CRITICAL - 2025-05-19 02:44:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'i.Userid' in 'on clause'
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id_user` = `i`.`Userid`
+WHERE `i`.`BillingId` = :i.BillingId:', [...], false)
+ 2 APPPATH\Models\InvoiceModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(355): App\Models\InvoiceModel->getCustomerByInvoice('51')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:44:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'i.Userid' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id_user` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id_user` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id_user` = `i`.`Userid`
+WHERE `i`.`BillingId` = :i.BillingId:', [...], false)
+ 4 APPPATH\Models\InvoiceModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin.php(355): App\Models\InvoiceModel->getCustomerByInvoice('51')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:44:37 --> [Caused by] mysqli_sql_exception: Unknown column 'i.Userid' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id_user` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id_user` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id_user` = `i`.`Userid`
+WHERE `i`.`BillingId` = \'51\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`nama`, `u`.`email`, `u`.`number`, `u`.`RegDate`, `i`.`PostingDate` as `invoicedate`
+FROM `tblinvoice` `i`
+JOIN `users` `u` ON `u`.`id_user` = `i`.`Userid`
+WHERE `i`.`BillingId` = :i.BillingId:', [...], false)
+ 5 APPPATH\Models\InvoiceModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(355): App\Models\InvoiceModel->getCustomerByInvoice('51')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-19 02:48:02 --> mysqli_sql_exception: Unknown column 'p.nama_pegawai' in 'field list' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`nam...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nam...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nam...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nam...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Models\InvoiceModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(356): App\Models\InvoiceModel->getPegawaiByInvoice('51')
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#13 {main}
+CRITICAL - 2025-05-19 02:48:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p.nama_pegawai' in 'field list'
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = :h.invoice_id:', [...], false)
+ 2 APPPATH\Models\InvoiceModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(356): App\Models\InvoiceModel->getPegawaiByInvoice('51')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:48:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p.nama_pegawai' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = \'51\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = :h.invoice_id:', [...], false)
+ 4 APPPATH\Models\InvoiceModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin.php(356): App\Models\InvoiceModel->getPegawaiByInvoice('51')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:48:02 --> [Caused by] mysqli_sql_exception: Unknown column 'p.nama_pegawai' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`nama_pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = \'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nama_pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nama_pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = \'51\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nama_pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = :h.invoice_id:', [...], false)
+ 5 APPPATH\Models\InvoiceModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(356): App\Models\InvoiceModel->getPegawaiByInvoice('51')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-19 02:48:29 --> mysqli_sql_exception: Unknown column 'h.invoice_id' in 'where clause' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`peg...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`peg...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`peg...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`peg...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Models\InvoiceModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(356): App\Models\InvoiceModel->getPegawaiByInvoice('51')
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#13 {main}
+CRITICAL - 2025-05-19 02:48:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'h.invoice_id' in 'where clause'
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = :h.invoice_id:', [...], false)
+ 2 APPPATH\Models\InvoiceModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(356): App\Models\InvoiceModel->getPegawaiByInvoice('51')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:48:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'h.invoice_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = \'51\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = :h.invoice_id:', [...], false)
+ 4 APPPATH\Models\InvoiceModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin.php(356): App\Models\InvoiceModel->getPegawaiByInvoice('51')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:48:29 --> [Caused by] mysqli_sql_exception: Unknown column 'h.invoice_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = \'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = \'51\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`invoice_id` = :h.invoice_id:', [...], false)
+ 5 APPPATH\Models\InvoiceModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(356): App\Models\InvoiceModel->getPegawaiByInvoice('51')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-19 02:48:41 --> mysqli_sql_exception: Unknown column 'h.pegawai_id' in 'on clause' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`peg...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`peg...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`peg...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`peg...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Models\InvoiceModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(356): App\Models\InvoiceModel->getPegawaiByInvoice('51')
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#13 {main}
+CRITICAL - 2025-05-19 02:48:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'h.pegawai_id' in 'on clause'
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`id_invoice` = :h.id_invoice:', [...], false)
+ 2 APPPATH\Models\InvoiceModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(356): App\Models\InvoiceModel->getPegawaiByInvoice('51')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:48:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'h.pegawai_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`id_invoice` = \'51\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`id_invoice` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`id_invoice` = :h.id_invoice:', [...], false)
+ 4 APPPATH\Models\InvoiceModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin.php(356): App\Models\InvoiceModel->getPegawaiByInvoice('51')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:48:41 --> [Caused by] mysqli_sql_exception: Unknown column 'h.pegawai_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`id_invoice` = \'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`id_invoice` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`id_invoice` = \'51\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`pegawai`, `p`.`alamat`, `p`.`telepon`
+FROM `tblhistory` `h`
+JOIN `tblpegawai` `p` ON `p`.`id_pegawai` = `h`.`pegawai_id`
+WHERE `h`.`id_invoice` = :h.id_invoice:', [...], false)
+ 5 APPPATH\Models\InvoiceModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(356): App\Models\InvoiceModel->getPegawaiByInvoice('51')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:48:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/view_invoice.php"
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/view_invoice.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('invoice/view_invoice', [], true)
+ 3 APPPATH\Controllers\Admin.php(358): view('invoice/view_invoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:49:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/view_invoices.php"
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/view_invoices.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('invoice/view_invoices', [], true)
+ 3 APPPATH\Controllers\Admin.php(358): view('invoice/view_invoices', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:49:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/view_invoices.php"
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/view_invoices.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('invoice/view_invoices', [], true)
+ 3 APPPATH\Controllers\Admin.php(358): view('invoice/view_invoices', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:49:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/view_invoices/51]
+in APPPATH\Views\admin\view_invoices.php on line 13.
+ 1 APPPATH\Views\admin\view_invoices.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 5 APPPATH\Controllers\Admin.php(358): view('admin/view_invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 02:52:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/header.php"
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/header.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('admin/header', null, true)
+ 3 APPPATH\Views\admin\view_invoices.php(1): CodeIgniter\View\View->include('admin/header')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\view_invoices.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/view_invoices', [], true)
+ 7 APPPATH\Controllers\Admin.php(358): view('admin/view_invoices', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 03:01:57 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\InvoiceModel::getInvoiceDetails
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Admin.php(369): CodeIgniter\Model->__call('getInvoiceDetails', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-19 03:05:01 --> mysqli_sql_exception: Unknown column 'tblinvoice.RegDate' in 'field list' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblinvo...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvo...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvo...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvo...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Models\InvoiceModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(369): App\Models\InvoiceModel->getInvoiceDetails('51')
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#13 {main}
+CRITICAL - 2025-05-19 03:05:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tblinvoice.RegDate' in 'field list'
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.RegDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = :tblinvoice.BillingId:', [...], false)
+ 2 APPPATH\Models\InvoiceModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(369): App\Models\InvoiceModel->getInvoiceDetails('51')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 03:05:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tblinvoice.RegDate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.RegDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = \'51\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.RegDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.RegDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = :tblinvoice.BillingId:', [...], false)
+ 4 APPPATH\Models\InvoiceModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin.php(369): App\Models\InvoiceModel->getInvoiceDetails('51')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 03:05:01 --> [Caused by] mysqli_sql_exception: Unknown column 'tblinvoice.RegDate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.RegDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = \'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.RegDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.RegDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = \'51\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.RegDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = :tblinvoice.BillingId:', [...], false)
+ 5 APPPATH\Models\InvoiceModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(369): App\Models\InvoiceModel->getInvoiceDetails('51')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-19 03:05:22 --> mysqli_sql_exception: Unknown column 'tblinvoice.PointsUsed' in 'field list' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblinvo...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvo...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvo...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvo...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Models\InvoiceModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(369): App\Models\InvoiceModel->getInvoiceDetails('51')
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#13 {main}
+CRITICAL - 2025-05-19 03:05:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tblinvoice.PointsUsed' in 'field list'
+[Method: GET, Route: admin/view_invoices/51]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.PostingDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = :tblinvoice.BillingId:', [...], false)
+ 2 APPPATH\Models\InvoiceModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(369): App\Models\InvoiceModel->getInvoiceDetails('51')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 03:05:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tblinvoice.PointsUsed' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.PostingDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = \'51\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.PostingDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.PostingDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = :tblinvoice.BillingId:', [...], false)
+ 4 APPPATH\Models\InvoiceModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin.php(369): App\Models\InvoiceModel->getInvoiceDetails('51')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 03:05:22 --> [Caused by] mysqli_sql_exception: Unknown column 'tblinvoice.PointsUsed' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.PostingDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = \'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.PostingDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.PostingDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = \'51\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblinvoice`.`BillingId`, DATE(tblinvoice.PostingDate) as invoicedate, `users`.`nama`, `users`.`email`, `users`.`number`, `users`.`RegDate`, `tblservices`.`ServiceName`, `tblservices`.`Cost`, `tblinvoice`.`AmountPaid`, `tblinvoice`.`PointsUsed`
+FROM `tblinvoice`
+JOIN `users` ON `users`.`id_user` = `tblinvoice`.`id_user`
+JOIN `tblservices` ON `tblservices`.`id_service` = `tblinvoice`.`id_service`
+WHERE `tblinvoice`.`BillingId` = :tblinvoice.BillingId:', [...], false)
+ 5 APPPATH\Models\InvoiceModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(369): App\Models\InvoiceModel->getInvoiceDetails('51')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 03:22:12 --> ErrorException: Undefined array key "BillingID"
+[Method: GET, Route: admin/invoices]
+in APPPATH\Views\admin\invoices.php on line 39.
+ 1 APPPATH\Views\admin\invoices.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BillingID"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\invoices.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\invoices.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/invoices', [], true)
+ 5 APPPATH\Controllers\Admin.php(340): view('admin/invoices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->invoiceList()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-19 03:28:25 --> ErrorException: Undefined variable $invoiceModel
+[Method: GET, Route: admin/view_invoices/51]
+in APPPATH\Controllers\Admin.php on line 366.
+ 1 APPPATH\Controllers\Admin.php(366): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoiceModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 366)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->view('51')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')

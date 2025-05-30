@@ -1,0 +1,364 @@
+CRITICAL - 2025-05-16 16:50:03 --> ErrorException: Undefined property: App\Controllers\Admin::$ProductModel
+[Method: GET, Route: admin/products]
+in APPPATH\Controllers\Admin.php on line 156.
+ 1 APPPATH\Controllers\Admin.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$ProductModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 16:51:43 --> Error: Call to a member function orderBy() on null
+[Method: GET, Route: admin/products]
+in APPPATH\Controllers\Admin.php on line 157.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 16:52:52 --> Error: Call to a member function orderBy() on null
+[Method: GET, Route: admin/products]
+in APPPATH\Controllers\Admin.php on line 157.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 16:52:55 --> Error: Call to a member function orderBy() on null
+[Method: GET, Route: admin/products]
+in APPPATH\Controllers\Admin.php on line 157.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 16:53:00 --> Error: Call to a member function orderBy() on null
+[Method: GET, Route: admin/products]
+in APPPATH\Controllers\Admin.php on line 157.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 16:55:26 --> ErrorException: Undefined property: App\Controllers\Admin::$ProductModel
+[Method: GET, Route: admin/products]
+in APPPATH\Controllers\Admin.php on line 157.
+ 1 APPPATH\Controllers\Admin.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$ProductModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 157)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 16:55:47 --> ErrorException: Undefined property: App\Controllers\Admin::$ProductModel
+[Method: GET, Route: admin/products]
+in APPPATH\Controllers\Admin.php on line 157.
+ 1 APPPATH\Controllers\Admin.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$ProductModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 157)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 16:55:51 --> ErrorException: Undefined property: App\Controllers\Admin::$ProductModel
+[Method: GET, Route: admin/products]
+in APPPATH\Controllers\Admin.php on line 157.
+ 1 APPPATH\Controllers\Admin.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$ProductModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 157)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 16:56:27 --> ErrorException: Undefined property: App\Controllers\Admin::$ProductModel
+[Method: GET, Route: admin/products]
+in APPPATH\Controllers\Admin.php on line 157.
+ 1 APPPATH\Controllers\Admin.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$ProductModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 157)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 16:56:39 --> Error: Call to a member function orderBy() on null
+[Method: GET, Route: admin/products]
+in APPPATH\Controllers\Admin.php on line 157.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 16:57:31 --> ErrorException: Undefined property: App\Controllers\Admin::$ProductModel
+[Method: GET, Route: admin/products]
+in APPPATH\Controllers\Admin.php on line 157.
+ 1 APPPATH\Controllers\Admin.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$ProductModel', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php', 157)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 16:58:34 --> ErrorException: Undefined array key "updated_at"
+[Method: GET, Route: admin/products]
+in APPPATH\Views\admin\products.php on line 52.
+ 1 APPPATH\Views\admin\products.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "updated_at"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\products.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Admin.php(159): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 17:01:55 --> ErrorException: Undefined array key "id_product"
+[Method: GET, Route: admin/products]
+in APPPATH\Views\admin\products.php on line 54.
+ 1 APPPATH\Views\admin\products.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_product"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\products.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Admin.php(159): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 17:07:47 --> Error: Call to undefined function set_value()
+[Method: GET, Route: admin/addproduct]
+in APPPATH\Views\admin\addproduct.php on line 28.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 4 APPPATH\Controllers\Admin.php(197): view('admin/addproduct')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->addProduct()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 17:09:41 --> Error: Call to undefined function set_value()
+[Method: GET, Route: admin/addproduct]
+in APPPATH\Views\admin\addproduct.php on line 30.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 4 APPPATH\Controllers\Admin.php(197): view('admin/addproduct')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->addProduct()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 17:49:41 --> ErrorException: Undefined array key "id_product"
+[Method: GET, Route: admin/editproduct/1]
+in APPPATH\Views\admin\editproduct.php on line 24.
+ 1 APPPATH\Views\admin\editproduct.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_product"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/editproduct', [], true)
+ 5 APPPATH\Controllers\Admin.php(222): view('admin/editproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->editProduct('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 17:49:58 --> ErrorException: Undefined array key "id_product"
+[Method: GET, Route: admin/editproduct/1]
+in APPPATH\Views\admin\editproduct.php on line 24.
+ 1 APPPATH\Views\admin\editproduct.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_product"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/editproduct', [], true)
+ 5 APPPATH\Controllers\Admin.php(222): view('admin/editproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->editProduct('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 17:50:01 --> ErrorException: Undefined array key "id_product"
+[Method: GET, Route: admin/editproduct/1]
+in APPPATH\Views\admin\editproduct.php on line 24.
+ 1 APPPATH\Views\admin\editproduct.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_product"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/editproduct', [], true)
+ 5 APPPATH\Controllers\Admin.php(222): view('admin/editproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->editProduct('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 17:50:13 --> ErrorException: Undefined array key "id_product"
+[Method: GET, Route: admin/editproduct/1]
+in APPPATH\Views\admin\editproduct.php on line 24.
+ 1 APPPATH\Views\admin\editproduct.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_product"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/editproduct', [], true)
+ 5 APPPATH\Controllers\Admin.php(222): view('admin/editproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->editProduct('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 17:51:07 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: admin/products]
+in APPPATH\Views\admin\products.php on line 54.
+ 1 APPPATH\Views\admin\products.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\products.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Admin.php(159): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->products()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-16 17:51:24 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(754): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(257): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->updateProduct('1')
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#16 {main}
+CRITICAL - 2025-05-16 17:51:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: admin/updateproduct/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblproduk` (`nama_produk`, `deskripsi`, `harga`, `stok`, `created_at`, `updated_at`) VALUES (:nama_produk:, :deskripsi:, :harga:, :stok:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Admin.php(257): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateProduct('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 17:51:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblproduk` (`nama_produk`, `deskripsi`, `harga`, `stok`, `created_at`, `updated_at`) VALUES (\'hair paste\', \'lorem ipsum dolor sit amet nguna ngana\', \'90.00\', \'11\', \'2025-05-16 17:51:24\', \'2025-05-16 17:51:24\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblproduk` (`nama_produk`, `deskripsi`, `harga`, `stok`, `created_at`, `updated_at`) VALUES (\'hair paste\', \'lorem ipsum dolor sit amet nguna ngana\', \'90.00\', \'11\', \'2025-05-16 17:51:24\', \'2025-05-16 17:51:24\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblproduk` (`nama_produk`, `deskripsi`, `harga`, `stok`, `created_at`, `updated_at`) VALUES (:nama_produk:, :deskripsi:, :harga:, :stok:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Admin.php(257): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateProduct('1')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 17:51:24 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tblproduk` (`nama_produk`, `deskripsi`, `harga`, `stok`, `created_at`, `updated_at`) VALUES (\'hair paste\', \'lorem ipsum dolor sit amet nguna ngana\', \'90.00\', \'11\', \'2025-05-16 17:51:24\', \'2025-05-16 17:51:24\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblproduk` (`nama_produk`, `deskripsi`, `harga`, `stok`, `created_at`, `updated_at`) VALUES (\'hair paste\', \'lorem ipsum dolor sit amet nguna ngana\', \'90.00\', \'11\', \'2025-05-16 17:51:24\', \'2025-05-16 17:51:24\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblproduk` (`nama_produk`, `deskripsi`, `harga`, `stok`, `created_at`, `updated_at`) VALUES (\'hair paste\', \'lorem ipsum dolor sit amet nguna ngana\', \'90.00\', \'11\', \'2025-05-16 17:51:24\', \'2025-05-16 17:51:24\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblproduk` (`nama_produk`, `deskripsi`, `harga`, `stok`, `created_at`, `updated_at`) VALUES (:nama_produk:, :deskripsi:, :harga:, :stok:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Admin.php(257): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateProduct('1')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 18:14:12 --> ErrorException: Undefined array key "id_product"
+[Method: GET, Route: admin/editproduct/3]
+in APPPATH\Views\admin\editproduct.php on line 24.
+ 1 APPPATH\Views\admin\editproduct.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_product"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/editproduct', [], true)
+ 5 APPPATH\Controllers\Admin.php(222): view('admin/editproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->editProduct('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 18:29:05 --> ErrorException: Undefined array key "id_product"
+[Method: GET, Route: admin/editproduct/4]
+in APPPATH\Views\admin\editproduct.php on line 24.
+ 1 APPPATH\Views\admin\editproduct.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_product"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/editproduct', [], true)
+ 5 APPPATH\Controllers\Admin.php(222): view('admin/editproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->editProduct('4')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-16 18:29:24 --> ErrorException: Undefined array key "id_product"
+[Method: GET, Route: admin/editproduct/4]
+in APPPATH\Views\admin\editproduct.php on line 25.
+ 1 APPPATH\Views\admin\editproduct.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_product"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\editproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/editproduct', [], true)
+ 5 APPPATH\Controllers\Admin.php(222): view('admin/editproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->editProduct('4')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')

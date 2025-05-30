@@ -1,0 +1,1331 @@
+CRITICAL - 2025-05-26 10:29:48 --> CodeIgniter\Filters\Exceptions\FilterException: "rolefilter" filter must have a matching alias defined.
+[Method: GET, Route: member/dashboard]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('rolefilter')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('rolefilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:30:24 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 22.
+ 1 APPPATH\Views\member\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:30:56 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 22.
+ 1 APPPATH\Views\member\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:32:12 --> ErrorException: Undefined array key "number"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 23.
+ 1 APPPATH\Views\member\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "number"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:32:19 --> ErrorException: Undefined array key "telepon"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 23.
+ 1 APPPATH\Views\member\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "telepon"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:32:49 --> ErrorException: Undefined array key "invoicedate"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 24.
+ 1 APPPATH\Views\member\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "invoicedate"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:33:04 --> ErrorException: Undefined array key "InvoiceId"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 53.
+ 1 APPPATH\Views\member\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "InvoiceId"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:34:40 --> ErrorException: Undefined array key "TanggalPemesanan"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 54.
+ 1 APPPATH\Views\member\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TanggalPemesanan"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:34:41 --> ErrorException: Undefined array key "TanggalPemesanan"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 54.
+ 1 APPPATH\Views\member\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TanggalPemesanan"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:36:46 --> ErrorException: Undefined array key "Hasil"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 57.
+ 1 APPPATH\Views\member\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Hasil"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:37:04 --> ErrorException: Undefined array key "NamaPegawai"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 61.
+ 1 APPPATH\Views\member\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NamaPegawai"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:37:12 --> ErrorException: Undefined array key "Pegawai"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 61.
+ 1 APPPATH\Views\member\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Pegawai"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:37:33 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 61.
+ 1 APPPATH\Views\member\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:39:56 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 61.
+ 1 APPPATH\Views\member\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:43:42 --> ErrorException: Undefined array key "capster"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 61.
+ 1 APPPATH\Views\member\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "capster"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:44:19 --> ErrorException: Undefined array key "capster"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 61.
+ 1 APPPATH\Views\member\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "capster"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:45:27 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 4 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:45:27 --> [Caused by] ErrorException: Undefined variable $riwayat
+in APPPATH\Views\member\index.php on line 49.
+ 1 APPPATH\Views\member\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $riwayat', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:45:40 --> ErrorException: Undefined variable $riwayat
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 50.
+ 1 APPPATH\Views\member\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $riwayat', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:45:51 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 4 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:45:51 --> [Caused by] ErrorException: Undefined variable $riwayat
+in APPPATH\Views\member\index.php on line 49.
+ 1 APPPATH\Views\member\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $riwayat', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:46:12 --> ParseError: syntax error, unexpected token "else", expecting end of file
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 63.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 3 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:47:13 --> ErrorException: Undefined variable $riwayat
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 49.
+ 1 APPPATH\Views\member\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $riwayat', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(46): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-26 10:59:05 --> mysqli_sql_exception: Table 'barbershop.pegawai' doesn't exist in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblhist...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblhist...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblhist...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblhist...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Models\HistoryModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Member.php(30): App\Models\HistoryModel->getUserHistoryWithPegawai('70')
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#13 {main}
+CRITICAL - 2025-05-26 10:59:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'barbershop.pegawai' doesn't exist
+[Method: GET, Route: member/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblhistory`.*, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `pegawai` ON `pegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = :tblhistory.id_user:
+ORDER BY `tblhistory`.`tanggal` DESC', [...], false)
+ 2 APPPATH\Models\HistoryModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Member.php(30): App\Models\HistoryModel->getUserHistoryWithPegawai('70')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:59:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'barbershop.pegawai' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblhistory`.*, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `pegawai` ON `pegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = \'70\'
+ORDER BY `tblhistory`.`tanggal` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblhistory`.*, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `pegawai` ON `pegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = \'70\'
+ORDER BY `tblhistory`.`tanggal` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblhistory`.*, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `pegawai` ON `pegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = :tblhistory.id_user:
+ORDER BY `tblhistory`.`tanggal` DESC', [...], false)
+ 4 APPPATH\Models\HistoryModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Member.php(30): App\Models\HistoryModel->getUserHistoryWithPegawai('70')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:59:05 --> [Caused by] mysqli_sql_exception: Table 'barbershop.pegawai' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblhistory`.*, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `pegawai` ON `pegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = \'70\'
+ORDER BY `tblhistory`.`tanggal` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblhistory`.*, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `pegawai` ON `pegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = \'70\'
+ORDER BY `tblhistory`.`tanggal` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblhistory`.*, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `pegawai` ON `pegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = \'70\'
+ORDER BY `tblhistory`.`tanggal` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblhistory`.*, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `pegawai` ON `pegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = :tblhistory.id_user:
+ORDER BY `tblhistory`.`tanggal` DESC', [...], false)
+ 5 APPPATH\Models\HistoryModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Member.php(30): App\Models\HistoryModel->getUserHistoryWithPegawai('70')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 10:59:32 --> ErrorException: Undefined variable $riwayat
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 49.
+ 1 APPPATH\Views\member\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $riwayat', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(45): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 11:00:04 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 61.
+ 1 APPPATH\Views\member\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(45): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 11:02:07 --> ErrorException: Undefined array key "id_history"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 58.
+ 1 APPPATH\Views\member\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_history"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(45): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 11:07:25 --> ParseError: syntax error, unexpected variable "$histories", expecting "function" or "const"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Models\HistoryModel.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Models\\HistoryModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\HistoryModel')
+ 3 APPPATH\Controllers\Member.php(21): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\HistoryModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-26 11:10:36 --> mysqli_sql_exception: Unknown column 'pegawai.nama' in 'field list' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblhist...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblhist...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblhist...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblhist...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Models\HistoryModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Member.php(30): App\Models\HistoryModel->getUserHistoryWithPegawai('70')
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#13 {main}
+CRITICAL - 2025-05-26 11:10:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pegawai.nama' in 'field list'
+[Method: GET, Route: member/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblhistory`.`id_history`, `tblhistory`.`id_invoice`, `tblhistory`.`tanggal`, `tblhistory`.`deskripsi`, `tblhistory`.`hasil`, `tblhistory`.`id_pegawai`, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = :tblhistory.id_user:
+ORDER BY `tblhistory`.`tanggal` DESC', [...], false)
+ 2 APPPATH\Models\HistoryModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Member.php(30): App\Models\HistoryModel->getUserHistoryWithPegawai('70')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 11:10:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pegawai.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblhistory`.`id_history`, `tblhistory`.`id_invoice`, `tblhistory`.`tanggal`, `tblhistory`.`deskripsi`, `tblhistory`.`hasil`, `tblhistory`.`id_pegawai`, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = \'70\'
+ORDER BY `tblhistory`.`tanggal` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblhistory`.`id_history`, `tblhistory`.`id_invoice`, `tblhistory`.`tanggal`, `tblhistory`.`deskripsi`, `tblhistory`.`hasil`, `tblhistory`.`id_pegawai`, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = \'70\'
+ORDER BY `tblhistory`.`tanggal` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblhistory`.`id_history`, `tblhistory`.`id_invoice`, `tblhistory`.`tanggal`, `tblhistory`.`deskripsi`, `tblhistory`.`hasil`, `tblhistory`.`id_pegawai`, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = :tblhistory.id_user:
+ORDER BY `tblhistory`.`tanggal` DESC', [...], false)
+ 4 APPPATH\Models\HistoryModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Member.php(30): App\Models\HistoryModel->getUserHistoryWithPegawai('70')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 11:10:36 --> [Caused by] mysqli_sql_exception: Unknown column 'pegawai.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tblhistory`.`id_history`, `tblhistory`.`id_invoice`, `tblhistory`.`tanggal`, `tblhistory`.`deskripsi`, `tblhistory`.`hasil`, `tblhistory`.`id_pegawai`, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = \'70\'
+ORDER BY `tblhistory`.`tanggal` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblhistory`.`id_history`, `tblhistory`.`id_invoice`, `tblhistory`.`tanggal`, `tblhistory`.`deskripsi`, `tblhistory`.`hasil`, `tblhistory`.`id_pegawai`, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = \'70\'
+ORDER BY `tblhistory`.`tanggal` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblhistory`.`id_history`, `tblhistory`.`id_invoice`, `tblhistory`.`tanggal`, `tblhistory`.`deskripsi`, `tblhistory`.`hasil`, `tblhistory`.`id_pegawai`, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = \'70\'
+ORDER BY `tblhistory`.`tanggal` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tblhistory`.`id_history`, `tblhistory`.`id_invoice`, `tblhistory`.`tanggal`, `tblhistory`.`deskripsi`, `tblhistory`.`hasil`, `tblhistory`.`id_pegawai`, `pegawai`.`nama` as `nama_pegawai`
+FROM `tblhistory`
+JOIN `tblpegawai` ON `tblpegawai`.`id_pegawai` = `tblhistory`.`id_pegawai`
+WHERE `tblhistory`.`id_user` = :tblhistory.id_user:
+ORDER BY `tblhistory`.`tanggal` DESC', [...], false)
+ 5 APPPATH\Models\HistoryModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Member.php(30): App\Models\HistoryModel->getUserHistoryWithPegawai('70')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 11:22:54 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 23.
+ 1 APPPATH\Views\member\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(45): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 11:25:02 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 23.
+ 1 APPPATH\Views\member\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(45): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 11:27:42 --> ErrorException: Undefined variable $id_invoice
+[Method: GET, Route: member/dashboard]
+in APPPATH\Controllers\Member.php on line 25.
+ 1 APPPATH\Controllers\Member.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_invoice', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Member.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 11:28:01 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\InvoiceModel::getInvoicesdetail
+[Method: GET, Route: member/dashboard]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Member.php(25): CodeIgniter\Model->__call('getInvoicesdetail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 11:28:23 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\InvoiceModel::getInvoicesDetails
+[Method: GET, Route: member/dashboard]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Member.php(25): CodeIgniter\Model->__call('getInvoicesDetails', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 11:28:57 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 23.
+ 1 APPPATH\Views\member\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(45): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 11:31:45 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 23.
+ 1 APPPATH\Views\member\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\member\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 5 APPPATH\Controllers\Member.php(45): view('member/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 12:34:43 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 157.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 3 APPPATH\Controllers\Member.php(45): view('member/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 12:35:05 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: member/dashboard]
+in APPPATH\Views\member\index.php on line 157.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('member/index', [], true)
+ 3 APPPATH\Controllers\Member.php(45): view('member/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-26 13:12:28 --> mysqli_sql_exception: Unknown column 'jumlah' in 'field list' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Member.php(74): CodeIgniter\Model->insert(Array)
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Member->beliProduk()
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#15 {main}
+CRITICAL - 2025-05-26 13:12:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jumlah' in 'field list'
+[Method: POST, Route: member/beli-produk]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (:id_user:, :id_produk:, :jumlah:, :total:, :status:, :tanggal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Member.php(74): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->beliProduk()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 13:12:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:12:28\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:12:28\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (:id_user:, :id_produk:, :jumlah:, :total:, :status:, :tanggal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Member.php(74): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->beliProduk()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 13:12:28 --> [Caused by] mysqli_sql_exception: Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:12:28\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:12:28\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:12:28\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (:id_user:, :id_produk:, :jumlah:, :total:, :status:, :tanggal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Member.php(74): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->beliProduk()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-26 13:13:12 --> mysqli_sql_exception: Unknown column 'total' in 'field list' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Member.php(74): CodeIgniter\Model->insert(Array)
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Member->beliProduk()
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#15 {main}
+CRITICAL - 2025-05-26 13:13:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total' in 'field list'
+[Method: POST, Route: member/beli-produk]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (:id_user:, :id_produk:, :jumlah:, :total:, :status:, :tanggal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Member.php(74): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->beliProduk()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 13:13:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:13:12\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:13:12\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (:id_user:, :id_produk:, :jumlah:, :total:, :status:, :tanggal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Member.php(74): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->beliProduk()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 13:13:12 --> [Caused by] mysqli_sql_exception: Unknown column 'total' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:13:12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:13:12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:13:12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (:id_user:, :id_produk:, :jumlah:, :total:, :status:, :tanggal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Member.php(74): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->beliProduk()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-26 13:14:02 --> mysqli_sql_exception: Unknown column 'tanggal' in 'field list' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Member.php(74): CodeIgniter\Model->insert(Array)
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Member->beliProduk()
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#15 {main}
+CRITICAL - 2025-05-26 13:14:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tanggal' in 'field list'
+[Method: POST, Route: member/beli-produk]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (:id_user:, :id_produk:, :jumlah:, :total:, :status:, :tanggal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Member.php(74): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->beliProduk()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 13:14:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tanggal' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:14:02\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:14:02\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (:id_user:, :id_produk:, :jumlah:, :total:, :status:, :tanggal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Member.php(74): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->beliProduk()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 13:14:02 --> [Caused by] mysqli_sql_exception: Unknown column 'tanggal' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:14:02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:14:02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (\'70\', \'5\', \'1\', 90000, \'Menunggu Persetujuan\', \'2025-05-26 13:14:02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembelian` (`id_user`, `id_produk`, `jumlah`, `total`, `status`, `tanggal`) VALUES (:id_user:, :id_produk:, :jumlah:, :total:, :status:, :tanggal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Member.php(74): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->beliProduk()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 20:08:23 --> ErrorException: Undefined variable $currentPage
+[Method: GET, Route: admin]
+in APPPATH\Views\template\admin\sidebar.php on line 133.
+ 1 APPPATH\Views\template\admin\sidebar.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentPage', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\template\\admin\\sidebar.php', 133)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\template\\admin\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('template/admin/sidebar', null, true)
+ 5 APPPATH\Views\admin\index.php(2): CodeIgniter\View\View->include('template/admin/sidebar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/index', [], true)
+ 9 APPPATH\Controllers\Admin.php(48): view('admin/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 20:08:30 --> ErrorException: Undefined variable $currentPage
+[Method: GET, Route: admin]
+in APPPATH\Views\template\admin\sidebar.php on line 133.
+ 1 APPPATH\Views\template\admin\sidebar.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentPage', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\template\\admin\\sidebar.php', 133)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\template\\admin\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('template/admin/sidebar', null, true)
+ 5 APPPATH\Views\admin\index.php(2): CodeIgniter\View\View->include('template/admin/sidebar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/index', [], true)
+ 9 APPPATH\Controllers\Admin.php(48): view('admin/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 20:08:58 --> ErrorException: Undefined variable $currentPage
+[Method: GET, Route: admin]
+in APPPATH\Views\template\admin\sidebar.php on line 133.
+ 1 APPPATH\Views\template\admin\sidebar.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentPage', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\template\\admin\\sidebar.php', 133)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\template\\admin\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('template/admin/sidebar', null, true)
+ 5 APPPATH\Views\admin\index.php(2): CodeIgniter\View\View->include('template/admin/sidebar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/index', [], true)
+ 9 APPPATH\Controllers\Admin.php(48): view('admin/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-26 20:13:29 --> mysqli_sql_exception: Table 'barbershop.produk' doesn't exist in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pembeli...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembeli...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembeli...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembeli...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Models\PembelianModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(619): App\Models\PembelianModel->getPembelianDenganProdukDanUser()
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->kelolaPembelian()
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#15 {main}
+CRITICAL - 2025-05-26 20:13:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'barbershop.produk' doesn't exist
+[Method: GET, Route: admin/kelola_pembelian]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembelian`.*, `users`.`username`, `produk`.`nama_produk`, `produk`.`harga`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `produk` ON `produk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PembelianModel.php(20): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin.php(619): App\Models\PembelianModel->getPembelianDenganProdukDanUser()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->kelolaPembelian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 20:13:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'barbershop.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembelian`.*, `users`.`username`, `produk`.`nama_produk`, `produk`.`harga`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `produk` ON `produk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembelian`.*, `users`.`username`, `produk`.`nama_produk`, `produk`.`harga`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `produk` ON `produk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembelian`.*, `users`.`username`, `produk`.`nama_produk`, `produk`.`harga`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `produk` ON `produk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PembelianModel.php(20): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin.php(619): App\Models\PembelianModel->getPembelianDenganProdukDanUser()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->kelolaPembelian()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 20:13:29 --> [Caused by] mysqli_sql_exception: Table 'barbershop.produk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pembelian`.*, `users`.`username`, `produk`.`nama_produk`, `produk`.`harga`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `produk` ON `produk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembelian`.*, `users`.`username`, `produk`.`nama_produk`, `produk`.`harga`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `produk` ON `produk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembelian`.*, `users`.`username`, `produk`.`nama_produk`, `produk`.`harga`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `produk` ON `produk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembelian`.*, `users`.`username`, `produk`.`nama_produk`, `produk`.`harga`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `produk` ON `produk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PembelianModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin.php(619): App\Models\PembelianModel->getPembelianDenganProdukDanUser()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->kelolaPembelian()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 20:14:07 --> ErrorException: Undefined array key "Image"
+[Method: GET, Route: admin/kelola_pembelian]
+in APPPATH\Views\admin\kelola_pembelian.php on line 34.
+ 1 APPPATH\Views\admin\kelola_pembelian.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Image"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\kelola_pembelian.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\kelola_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/kelola_pembelian', [], true)
+ 5 APPPATH\Controllers\Admin.php(621): view('admin/kelola_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->kelolaPembelian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 20:16:14 --> ErrorException: Undefined array key "tanggal_pembelian"
+[Method: GET, Route: admin/kelola_pembelian]
+in APPPATH\Views\admin\kelola_pembelian.php on line 46.
+ 1 APPPATH\Views\admin\kelola_pembelian.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_pembelian"', 'C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\kelola_pembelian.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Views\\admin\\kelola_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/kelola_pembelian', [], true)
+ 5 APPPATH\Controllers\Admin.php(621): view('admin/kelola_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->kelolaPembelian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-26 20:51:46 --> mysqli_sql_exception: Unknown column 'tblproduk.status' in 'field list' in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pembeli...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembeli...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembeli...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembeli...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Models\PembelianModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(619): App\Models\PembelianModel->getPembelianDenganProdukDanUser()
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->kelolaPembelian()
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#15 {main}
+CRITICAL - 2025-05-26 20:51:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tblproduk.status' in 'field list'
+[Method: GET, Route: admin/kelola_pembelian]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembelian`.*, `users`.`username`, `tblproduk`.`nama_produk`, `tblproduk`.`harga`, `tblproduk`.`Image`, `tblproduk`.`status`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `tblproduk` ON `tblproduk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PembelianModel.php(20): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin.php(619): App\Models\PembelianModel->getPembelianDenganProdukDanUser()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->kelolaPembelian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 20:51:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tblproduk.status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembelian`.*, `users`.`username`, `tblproduk`.`nama_produk`, `tblproduk`.`harga`, `tblproduk`.`Image`, `tblproduk`.`status`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `tblproduk` ON `tblproduk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembelian`.*, `users`.`username`, `tblproduk`.`nama_produk`, `tblproduk`.`harga`, `tblproduk`.`Image`, `tblproduk`.`status`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `tblproduk` ON `tblproduk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembelian`.*, `users`.`username`, `tblproduk`.`nama_produk`, `tblproduk`.`harga`, `tblproduk`.`Image`, `tblproduk`.`status`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `tblproduk` ON `tblproduk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PembelianModel.php(20): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin.php(619): App\Models\PembelianModel->getPembelianDenganProdukDanUser()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->kelolaPembelian()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 20:51:46 --> [Caused by] mysqli_sql_exception: Unknown column 'tblproduk.status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pembelian`.*, `users`.`username`, `tblproduk`.`nama_produk`, `tblproduk`.`harga`, `tblproduk`.`Image`, `tblproduk`.`status`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `tblproduk` ON `tblproduk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembelian`.*, `users`.`username`, `tblproduk`.`nama_produk`, `tblproduk`.`harga`, `tblproduk`.`Image`, `tblproduk`.`status`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `tblproduk` ON `tblproduk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembelian`.*, `users`.`username`, `tblproduk`.`nama_produk`, `tblproduk`.`harga`, `tblproduk`.`Image`, `tblproduk`.`status`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `tblproduk` ON `tblproduk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembelian`.*, `users`.`username`, `tblproduk`.`nama_produk`, `tblproduk`.`harga`, `tblproduk`.`Image`, `tblproduk`.`status`
+FROM `pembelian`
+JOIN `users` ON `users`.`id_user` = `pembelian`.`id_user`
+JOIN `tblproduk` ON `tblproduk`.`id_produk` = `pembelian`.`id_produk`
+ORDER BY `pembelian`.`id_pembelian` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PembelianModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin.php(619): App\Models\PembelianModel->getPembelianDenganProdukDanUser()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->kelolaPembelian()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 20:56:47 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: admin/kelola_pembelian]
+in APPPATH\Views\admin\kelola_pembelian.php on line 46.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/kelola_pembelian', [], true)
+ 3 APPPATH\Controllers\Admin.php(621): view('admin/kelola_pembelian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->kelolaPembelian()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 23:51:54 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: admin/setujui-pembelian/6]
+in APPPATH\Controllers\Admin.php on line 671.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\app\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-26 23:54:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `k` FOREIGN KEY (`id_service`) REFERENCES `tblservices` (`id_service`) ON DELETE CASCADE ON UPDATE RESTRICT) in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(659): CodeIgniter\Model->insert(Array)
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->setujuiPembelian('6')
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#15 {main}
+CRITICAL - 2025-05-26 23:54:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `k` FOREIGN KEY (`id_service`) REFERENCES `tblservices` (`id_service`) ON DELETE CASCADE ON UPDATE RESTRICT)
+[Method: GET, Route: admin/setujui-pembelian/6]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (:id_user:, :id_service:, :BillingId:, :PostingDate:, :AmountPaid:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(659): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setujuiPembelian('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 23:54:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `k` FOREIGN KEY (`id_service`) REFERENCES `tblservices` (`id_service`) ON DELETE CASCADE ON UPDATE RESTRICT)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (\'70\', \'5\', \'INV-68348EA47694B\', \'2025-05-26 23:54:12\', \'270000.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (\'70\', \'5\', \'INV-68348EA47694B\', \'2025-05-26 23:54:12\', \'270000.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (:id_user:, :id_service:, :BillingId:, :PostingDate:, :AmountPaid:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Admin.php(659): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setujuiPembelian('6')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 23:54:12 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `k` FOREIGN KEY (`id_service`) REFERENCES `tblservices` (`id_service`) ON DELETE CASCADE ON UPDATE RESTRICT)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (\'70\', \'5\', \'INV-68348EA47694B\', \'2025-05-26 23:54:12\', \'270000.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (\'70\', \'5\', \'INV-68348EA47694B\', \'2025-05-26 23:54:12\', \'270000.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (\'70\', \'5\', \'INV-68348EA47694B\', \'2025-05-26 23:54:12\', \'270000.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (:id_user:, :id_service:, :BillingId:, :PostingDate:, :AmountPaid:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin.php(659): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setujuiPembelian('6')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+ERROR - 2025-05-26 23:59:24 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `k` FOREIGN KEY (`id_service`) REFERENCES `tblservices` (`id_service`) ON DELETE CASCADE ON UPDATE RESTRICT) in C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\app\Controllers\Admin.php(662): CodeIgniter\Model->insert(Array)
+#8 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(933): App\Controllers\Admin->setujuiPembelian('7')
+#9 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\public\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\LENOVO\Documents\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\barber\system\rewrite.php(44): require_once('C:\\Users\\LENOVO...')
+#15 {main}
+CRITICAL - 2025-05-26 23:59:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `k` FOREIGN KEY (`id_service`) REFERENCES `tblservices` (`id_service`) ON DELETE CASCADE ON UPDATE RESTRICT)
+[Method: GET, Route: admin/setujui-pembelian/7]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (:id_user:, :id_service:, :BillingId:, :PostingDate:, :AmountPaid:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin.php(662): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setujuiPembelian('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 23:59:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `k` FOREIGN KEY (`id_service`) REFERENCES `tblservices` (`id_service`) ON DELETE CASCADE ON UPDATE RESTRICT)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (\'70\', \'5\', \'INV-68348FDC3CB11\', \'2025-05-26 23:59:24\', \'360000.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (\'70\', \'5\', \'INV-68348FDC3CB11\', \'2025-05-26 23:59:24\', \'360000.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (:id_user:, :id_service:, :BillingId:, :PostingDate:, :AmountPaid:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Admin.php(662): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setujuiPembelian('7')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
+CRITICAL - 2025-05-26 23:59:24 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`barbershop`.`tblinvoice`, CONSTRAINT `k` FOREIGN KEY (`id_service`) REFERENCES `tblservices` (`id_service`) ON DELETE CASCADE ON UPDATE RESTRICT)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (\'70\', \'5\', \'INV-68348FDC3CB11\', \'2025-05-26 23:59:24\', \'360000.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (\'70\', \'5\', \'INV-68348FDC3CB11\', \'2025-05-26 23:59:24\', \'360000.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (\'70\', \'5\', \'INV-68348FDC3CB11\', \'2025-05-26 23:59:24\', \'360000.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblinvoice` (`id_user`, `id_service`, `BillingId`, `PostingDate`, `AmountPaid`) VALUES (:id_user:, :id_service:, :BillingId:, :PostingDate:, :AmountPaid:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin.php(662): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setujuiPembelian('7')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(60): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\LENOVO\\Documents\\SEMPRO TA DLL YANG PETNING POKOKNYA SEMESTER AKHIR\\barber\\public\\index.php')
