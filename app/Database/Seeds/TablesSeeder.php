@@ -30,7 +30,26 @@ class TablesSeeder extends Seeder
                 'RegDate' => '2025-05-22 18:34:32',
                 'is_active' => 1
             ],
-            // Tambahkan user lainnya sesuai file SQL jika diperlukan
+            [
+                'id_user' => 75,
+                'username' => 'fadil_pegawai',
+                'number' => 81234567890,
+                'email' => 'fadil@pegawai.com',
+                'password' => '$2y$10$dLg/37xDHq12LpsuaPsROOkCTYoteFoXwjCvwPK6zdsHlQBL.xSR6',
+                'role' => 'Pegawai',
+                'RegDate' => '2025-05-23 10:00:00',
+                'is_active' => 1
+            ],
+            [
+                'id_user' => 76,
+                'username' => 'utuh_pegawai',
+                'number' => 81234567891,
+                'email' => 'utuh@pegawai.com',
+                'password' => '$2y$10$dLg/37xDHq12LpsuaPsROOkCTYoteFoXwjCvwPK6zdsHlQBL.xSR6',
+                'role' => 'Pegawai',
+                'RegDate' => '2025-05-23 10:05:00',
+                'is_active' => 1
+            ]
         ]);
 
         // tblpegawai
@@ -126,7 +145,7 @@ class TablesSeeder extends Seeder
             'id' => 18,
             'email' => 'fadliyudha007@gmail.com',
             'token' => '394a5f7ca0ec204d6efa2388f42eb324',
-            'created_at' => '0000-00-00 00:00:00'
+            'created_at' => date('Y-m-d H:i:s') // Diubah dari '0000-00-00 00:00:00'
         ]);
 
         // booking
