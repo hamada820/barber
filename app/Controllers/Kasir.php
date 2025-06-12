@@ -667,7 +667,6 @@ class Kasir extends BaseController
         // Load logo dan encode base64 untuk inline image di email/pdf
         $logoPath = FCPATH . 'assets/img/logokharisma.png';
         $logoBase64 = base64_encode(file_get_contents($logoPath));
-
         // Generate HTML invoice PDF
         $html = view('kasir/invoice_produk_pdf', [
             'username' => $nama,
@@ -718,7 +717,7 @@ class Kasir extends BaseController
         $layanan = $serviceModel->find($invoice['id_service']);
         $namaLayanan = $invoice['ServiceName'] ?? 'Layanan Tidak Diketahui';
         // ✅ Gunakan view invoice untuk generate HTML PDF
-        $html = view('kasir/invoice_produk_pdf', [
+        $html = view('kasir/invoice_pdf', [
             'username' => $nama,
             'invoice' => $invoice,
             'layanan' => $namaLayanan,
