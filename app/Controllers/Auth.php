@@ -9,7 +9,11 @@ use Config\Services;
 
 class Auth extends BaseController
 {
-
+  public $usersModel;
+  public function __construct()
+  {
+    $this->usersModel = new UserModel();
+  }
   public function login()
   {
     if (session('logged_in')) {
@@ -18,7 +22,7 @@ class Auth extends BaseController
       } elseif (session('role') == 'Kasir') {
         return redirect()->to(base_url('/kasir'));
       } elseif (session('role') == 'Member') {
-        return redirect()->to(base_url('/member'));
+        return redirect()->to(base_url('/member/dashboard'));
       }
     }
     return view('auth/login'); // views/auth/login.php
@@ -41,12 +45,12 @@ class Auth extends BaseController
 
       $session->set([
         'id_user'   => $user['id_user'],
+        'email'  => $user['email'],
+        'number'  => $user['number'],
         'username'  => $user['username'],
         'role'      => $user['role'],
         'logged_in' => true
       ]);
-
-      // Redirect berdasarkan role
       switch ($user['role']) {
         case 'Admin':
           return redirect()->to('/admin');
@@ -212,6 +216,35 @@ class Auth extends BaseController
       return redirect()->to('/login')->with('success', 'Akun berhasil diaktifkan! Silakan login.');
     } else {
       return redirect()->to('/login')->with('error', 'Token tidak valid atau sudah kadaluarsa.');
+    }
+  }
+  public function profileUpdate()
+  {
+    $id_user = session('id_user');
+
+    // Ambil inputan
+    $data = [
+      'username' => $this->request->getPost('username'),
+      'number'   => $this->request->getPost('number'),
+      'email'    => $this->request->getPost('email'),
+    ];
+
+    // Jika password tidak kosong, update juga password-nya
+    $password = $this->request->getPost('password');
+    if (!empty($password)) {
+      $data['password'] = password_hash($password, PASSWORD_BCRYPT);
+    }
+
+    // Update ke database
+    $updated = $this->usersModel->update($id_user, $data);
+
+    if ($updated) {
+      // Update session jika username berubah
+      session()->set('username', $data['username']);
+
+      return redirect()->back()->with('success', 'Profil berhasil diperbarui.');
+    } else {
+      return redirect()->back()->with('error', 'Gagal memperbarui profil.');
     }
   }
 }

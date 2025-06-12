@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-5">
         <span id="about"></span>
-     
+
       </div>
 
       <div class="col-md-2 mb-3">
@@ -39,3 +39,16 @@
     </p>
   </div>
 </section>
+<div class="modal fade" id="modalProfil" tabindex="-1" aria-labelledby="modalProfilLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="modalProfilLabel">Profil Pengguna</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+      </div>
+      <div class="modal-body">
+        <?= view('template/inc/profile-section') ?>
+      </div>
+    </div>
+  </div>
+</div>

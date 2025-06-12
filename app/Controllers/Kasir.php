@@ -96,19 +96,20 @@ class Kasir extends BaseController
         ]);
     }
 
-    public function assignPost($id_user)
+    public function assignPost($id_user, $promo = NULL)
     {
-
         $db = \Config\Database::connect();
         $selectedServices = $this->request->getPost('sids');
         $pegawaiId = $this->request->getPost('id_pegawai');
-
         $db->query('SET FOREIGN_KEY_CHECKS=0');
         if ($selectedServices && $pegawaiId) {
 
             $invoiceModel = new \App\Models\InvoiceModel();
             $historyModel = new \App\Models\HistoryModel();
-            $serviceModel = new \App\Models\ServiceModel();  // Model untuk layanan
+            $serviceModel = new \App\Models\ServiceModel();
+            $userModel = new \App\Models\UserModel(); // tambahkan model user
+            $user = $userModel->find($id_user);
+            // Model untuk layanan
 
             foreach ($selectedServices as $serviceId) {
                 // 1. Ambil harga layanan dari tblservices
@@ -121,20 +122,37 @@ class Kasir extends BaseController
                 } while ($invoiceModel->where('BillingId', $billingId)->first());
 
                 // 2. Buat invoice terlebih dahulu  
-                $invoiceData = [
-                    'id_user'     => $id_user,
-                    'id_service'  => $serviceId,
-                    'id_pegawai' => $pegawaiId,
-                    'PostingDate' => date('Y-m-d H:i:s'),
-                    'BillingId'   => $billingId,
-                    'AmountPaid'  => $servicePrice // Masukkan harga layanan ke AmountPaid
-                ];
+                if ($promo != NULL) {
+                    $invoiceData = [
+                        'id_user'     => $id_user,
+                        'id_service'  => $serviceId,
+                        'id_pegawai' => $pegawaiId,
+                        'PostingDate' => date('Y-m-d H:i:s'),
+                        'BillingId'   => $billingId,
+                        'AmountPaid'  => $this->request->getPost('harga_promo'), // Masukkan harga layanan ke AmountPaid
+                    ];
+                } else {
+                    $invoiceData = [
+                        'id_user'     => $id_user,
+                        'id_service'  => $serviceId,
+                        'id_pegawai'  => $pegawaiId,
+                        'PostingDate' => date('Y-m-d H:i:s'),
+                        'BillingId'   => $billingId,
+                        'AmountPaid'  => $servicePrice // Masukkan harga layanan ke AmountPaid
+                    ];
+                }
                 $invoiceModel->insert($invoiceData);
                 $id_invoice = $invoiceModel->insertID();
 
                 if (!$id_invoice || !$invoiceModel->find($id_invoice)) {
                     return redirect()->back()->with('error', 'Gagal membuat invoice.');
                 }
+
+                $invoiceLengkap = $invoiceModel
+                    ->join('tblpegawai', 'tblpegawai.id_pegawai = tblinvoice.id_pegawai')
+                    ->join('tblservices', 'tblservices.id_service = tblinvoice.id_service')
+                    ->where('tblinvoice.id_invoice', $id_invoice)
+                    ->first();
 
                 // 3. Pastikan ID invoice valid, baru insert ke tblhistory
                 if ($id_invoice) {
@@ -149,6 +167,7 @@ class Kasir extends BaseController
                         // Gambar hasil (bisa ditambahkan jika perlu)
                     ]);
                 }
+                $this->kirimInvoiceEmail($user['email'], $user['username'], $invoiceLengkap);
             }
             $db->query('SET FOREIGN_KEY_CHECKS=1');
 
@@ -357,32 +376,91 @@ class Kasir extends BaseController
     public function createInvoice()
     {
         $id_pembelian = $this->request->getPost('id_pembelian');
-        $grandTotal = 0;
+        if (empty($id_pembelian)) {
+            return redirect()->back()->with('pesan', 'Tidak ada pembelian yang dipilih.');
+        }
+
         $pembelianModel = new \App\Models\PembelianModel();
         $invoiceProdukModel = new \App\Models\InvoiceProduk();
+        $userModel = new \App\Models\UserModel();
 
+        // Hitung total keseluruhan
+        $grandTotal = 0;
         foreach ($id_pembelian as $key) {
             $pembelian = $pembelianModel->find($key);
-            $grandTotal += $pembelian['total'];
-        }
-
-        $invoiceProdukModel->set('total', $grandTotal)->insert();
-
-        if ($invoiceProdukModel->getInsertID()) {
-            foreach ($id_pembelian as $key) {
-                $pembelianModel->update($key, [
-                    'id_invoiceproduk' => $invoiceProdukModel->getInsertID()
-                ]);
+            if ($pembelian) {
+                $grandTotal += $pembelian['total'];
             }
-            return redirect()->to(base_url('kasir/invoice-produk'))->with('pesan', 'Invoice berhasil dibuat.');
         }
+
+        // Buat invoice produk
+        $invoiceProdukModel->insert([
+            'total' => $grandTotal,
+            'tanggal' => date('Y-m-d H:i:s')
+        ]);
+
+        $invoiceId = $invoiceProdukModel->getInsertID();
+
+        if (!$invoiceId) {
+            return redirect()->back()->with('pesan', 'Gagal membuat invoice.');
+        }
+
+        // Update pembelian dengan id_invoiceproduk
+        foreach ($id_pembelian as $key) {
+            $pembelianModel->update($key, [
+                'id_invoiceproduk' => $invoiceId
+            ]);
+        }
+
+        // Ambil semua pembelian yang baru diupdate (invoice yang sama) grup per user
+        $pembelianList = $pembelianModel->whereIn('id_pembelian', $id_pembelian)->findAll();
+
+        // Group pembelian per user
+        $groupedByUser = [];
+        foreach ($pembelianList as $item) {
+            $groupedByUser[$item['id_user']][] = $item;
+        }
+
+        // Kirim email invoice per user
+        foreach ($groupedByUser as $id_user => $items) {
+            $user = $userModel->find($id_user);
+            if (!$user || empty($user['email'])) {
+                continue; // skip user tanpa email
+            }
+
+            // Siapkan data invoice untuk user
+            $invoiceData = [
+                'id_invoice' => $invoiceId,
+                'tanggal' => date('d-m-Y'),
+                'total' => 0,
+                'items' => []
+            ];
+            $items = $pembelianModel
+                ->join('tblproduk', 'tblproduk.id_produk = pembelian.id_produk')
+                ->whereIn('pembelian.id_pembelian', $id_pembelian)
+                ->findAll();
+            $totalUser = 0;
+            foreach ($items as $row) {
+                $invoiceData['items'][] = $row;
+                $totalUser += $row['total'];
+            }
+            // var_dump($invoiceData);
+            // die;
+            $invoiceData['total'] = $totalUser;
+
+            // Kirim email
+            $this->kirimInvoiceEmailProduk($user['email'], $user['username'], $invoiceData);
+        }
+
+        return redirect()->to(base_url('kasir/invoice-produk'))->with('pesan', 'Invoice berhasil dibuat dan email terkirim.');
     }
+
 
     public function viewInvoiceProduk()
     {
-        $invoiceModel = new \App\Models\InvoiceProduk();
+        $invoiceProdukModel = new \App\Models\InvoiceProduk();
         $data = [
-            'data' => $invoiceModel->findAll(),
+            'data' => $invoiceProdukModel->findAll(),
         ];
         return view('kasir/invoice-produk', $data);
     }
@@ -400,6 +478,13 @@ class Kasir extends BaseController
         ];
         return view('kasir/invoiceprodukdetail', $data);
     }
+
+       public function deleteInvoiceproduk($id)
+    {
+        $this->invoiceProdukModel->delete($id);
+        return redirect()->to('/kasir/invoice-produk')->with('info', 'Invoice berhasil dihapus.');
+    }
+
     public function booking()
     {
         $data = [
@@ -414,9 +499,8 @@ class Kasir extends BaseController
     }
 
 
-    public function bookingAssign($id_booking)
+    public function bookingAssign($id_booking, $promo = NULL)
     {
-        // Ambil data booking, layanan, dan user
         $data = $this->bookingModel
             ->join('tblservices', 'booking.id_service = tblservices.id_service')
             ->join('users', 'users.id_user = booking.id_user')
@@ -425,7 +509,6 @@ class Kasir extends BaseController
         if (!$data) {
             return redirect()->back()->with('error', 'Data booking tidak ditemukan.');
         }
-
         $idPegawai = $this->request->getPost('id_pegawai');
         $tanggal = $this->request->getPost('tanggal');
         if (!$tanggal || strtotime($tanggal) < time()) {
@@ -439,14 +522,25 @@ class Kasir extends BaseController
         ]);
 
         // Insert ke tabel invoice
-        $invoiceData = [
-            'id_user' => $data['id_user'],
-            'id_service' => $data['id_service'],
-            'id_pegawai' => $idPegawai,
-            'BillingId' => random_int(1000000000, 9999999999),
-            'PostingDate' => Time::now(),
-            'AmountPaid' => $data['Cost'],
-        ];
+        if ($promo ==  NULL) {
+            $invoiceData = [
+                'id_user' => $data['id_user'],
+                'id_service' => $data['id_service'],
+                'id_pegawai' => $idPegawai,
+                'BillingId' => random_int(1000000000, 9999999999),
+                'PostingDate' => Time::now(),
+                'AmountPaid' => $data['Cost'],
+            ];
+        } else {
+            $invoiceData = [
+                'id_user' => $data['id_user'],
+                'id_service' => $data['id_service'],
+                'id_pegawai' => $idPegawai,
+                'BillingId' => random_int(1000000000, 9999999999),
+                'PostingDate' => Time::now(),
+                'AmountPaid' => $this->request->getPost('harga_promo'),
+            ];
+        }
         $this->invoiceModel->save($invoiceData);
         $idInvoice = $this->invoiceModel->getInsertID();
 
@@ -508,5 +602,107 @@ class Kasir extends BaseController
         }
 
         return redirect()->to('/kasir/pelanggan')->with('success', 'Assign layanan berhasil dilakukan dan email notifikasi telah dikirim.');
+    }
+    private function kirimInvoiceEmailProduk($email, $nama, $invoice)
+    {
+        $emailService = \Config\Services::email();
+        $emailService->setFrom('kharismabarbershp@gmail.com', 'Kharisma Barbershop');
+        $emailService->setTo($email);
+        $emailService->setSubject('Invoice Transaksi Produk Anda - Kharisma Barbershop');
+
+        // Load logo dan encode base64 untuk inline image di email/pdf
+        $logoPath = FCPATH . 'assets/img/logokharisma.png';
+        $logoBase64 = base64_encode(file_get_contents($logoPath));
+
+        // Generate HTML invoice PDF
+        $html = view('kasir/invoice_produk_pdf', [
+            'username' => $nama,
+            'invoice' => $invoice,
+            'logoBase64' => $logoBase64
+        ]);
+
+        // Generate PDF dengan Dompdf
+        $dompdf = new \Dompdf\Dompdf();
+        $dompdf->loadHtml($html);
+        $dompdf->setPaper('A4', 'portrait');
+        $dompdf->render();
+
+        $pdfOutput = $dompdf->output();
+        $tempPath = WRITEPATH . 'uploads/invoice_produk_' . $invoice['id_invoice'] . '.pdf';
+        file_put_contents($tempPath, $pdfOutput);
+
+        // Body email
+        $message = "
+        <h3>Halo, {$nama}!</h3>
+        <p>Terima kasih telah melakukan pembelian produk di <strong>Kharisma Barbershop</strong>.</p>
+        <p>Invoice transaksi produk Anda terlampir dalam bentuk PDF.</p>
+        <p>Salam hangat,<br>Kharisma Barbershop</p>
+    ";
+        $emailService->setMessage($message);
+        $emailService->setMailType('html');
+        $emailService->attach($tempPath);
+
+        if (!$emailService->send()) {
+            log_message('error', 'Gagal mengirim invoice produk ke ' . $email);
+        } else {
+            log_message('info', 'Invoice produk berhasil dikirim ke ' . $email);
+        }
+
+        unlink($tempPath);
+    }
+    private function kirimInvoiceEmail($email, $nama, $invoice)
+    {
+        $emailService = \Config\Services::email();
+        $emailService->setFrom('kharismabarbershp@gmail.com', 'Kharisma Barbershop');
+        $emailService->setTo($email);
+        $emailService->setSubject('Invoice Transaksi Anda - Kharisma Barbershop');
+
+        $logoPath = FCPATH . 'assets/img/logokharisma.png';
+        $logoBase64 = base64_encode(file_get_contents($logoPath));
+        // Ambil nama layanan dari database (jika belum disiapkan sebelumnya)
+        $serviceModel = new \App\Models\ServiceModel();
+        $layanan = $serviceModel->find($invoice['id_service']);
+        $namaLayanan = $invoice['ServiceName'] ?? 'Layanan Tidak Diketahui';
+        // ✅ Gunakan view invoice untuk generate HTML PDF
+        $html = view('kasir/invoice_produk_pdf', [
+            'username' => $nama,
+            'invoice' => $invoice,
+            'layanan' => $namaLayanan,
+            'logoBase64' => $logoBase64
+        ]);
+
+        // ✅ Konversi ke PDF
+        $dompdf = new \Dompdf\Dompdf();
+        $dompdf->loadHtml($html);
+        $dompdf->setPaper('A4', 'portrait');
+        $dompdf->render();
+
+        // ✅ Simpan PDF sementara
+        $pdfOutput = $dompdf->output();
+        $tempPath = WRITEPATH . 'uploads/invoice_' . $invoice['BillingId'] . '.pdf';
+        file_put_contents($tempPath, $pdfOutput);
+
+        // ✅ Isi body email
+        $message = "
+        <h3>Halo, {$nama}!</h3>
+        <p>Terima kasih telah melakukan transaksi di <strong>Kharisma Barbershop</strong>.</p>
+        <p>Invoice transaksi Anda terlampir dalam bentuk PDF.</p>
+        <p>Salam hangat,<br>Kharisma Barbershop</p>
+    ";
+        $emailService->setMessage($message);
+        $emailService->setMailType('html');
+
+        // ✅ Lampirkan PDF
+        $emailService->attach($tempPath);
+
+        // ✅ Kirim
+        if (!$emailService->send()) {
+            log_message('error', 'Gagal mengirim invoice ke ' . $email);
+        } else {
+            log_message('info', 'Invoice berhasil dikirim ke ' . $email);
+        }
+
+        // ✅ Hapus file PDF sementara
+        unlink($tempPath);
     }
 }

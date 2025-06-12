@@ -213,40 +213,86 @@
 
   <!-- Invoice History -->
   <section class="mb-5">
-    <h2 class="text-center text-primary mb-4">Invoice History</h2>
-    <div class="table-responsive">
-      <table class="table table-bordered text-center">
-        <thead class="table-dark">
-          <tr>
-            <th>#</th>
-            <th>Invoice ID</th>
-            <th>Jumlah Dibayar</th>
-            <th>Tanggal</th>
-            <th>Aksi</th>
-          </tr>
-        </thead>
-        <tbody>
-          <?php if (!empty($invoices)): $no = 1; ?>
-            <?php foreach ($invoices as $row): ?>
-              <tr>
-                <td><?= $no++; ?></td>
-                <td><?= esc($row['BillingId']) ?></td>
-                <td><?= esc($row['AmountPaid']) ?></td>
-                <td><?= esc($row['PostingDate']) ?></td>
-                <td>
-                  <a href="<?= base_url('invoice-history?invoiceid=' . esc($row['BillingId'])) ?>" class="btn btn-primary btn-sm">Lihat</a>
-                </td>
-              </tr>
-            <?php endforeach; ?>
-          <?php else: ?>
+  <h2 class="text-center text-primary mb-4">Invoice History</h2>
+  <div class="table-responsive">
+    <table class="table table-bordered text-center">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Invoice ID</th>
+          <th>Jumlah Dibayar</th>
+          <th>Tanggal</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <?php if (!empty($invoices)): $no = 1; ?>
+          <?php foreach ($invoices as $row): ?>
             <tr>
-              <td colspan="5">Tidak ada data invoice.</td>
+              <td><?= $no++; ?></td>
+              <td><?= esc($row['BillingId']) ?></td>
+              <td><?= esc($row['AmountPaid']) ?></td>
+              <td><?= esc($row['PostingDate']) ?></td>
+              <td>
+                <button 
+                  class="btn btn-primary btn-sm lihat-invoice" 
+                  data-billingid="<?= esc($row['BillingId']) ?>"
+                  data-amount="<?= esc($row['AmountPaid']) ?>"
+                  data-date="<?= esc($row['PostingDate']) ?>"
+                >
+                  Lihat
+                </button>
+              </td>
             </tr>
-          <?php endif; ?>
-        </tbody>
-      </table>
+          <?php endforeach; ?>
+        <?php else: ?>
+          <tr>
+            <td colspan="5">Tidak ada data invoice.</td>
+          </tr>
+        <?php endif; ?>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="invoiceModal" tabindex="-1" aria-labelledby="invoiceModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="invoiceModalLabel">Detail Invoice</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Invoice ID:</strong> <span id="modalInvoiceId"></span></p>
+        <p><strong>Jumlah Dibayar:</strong> <span id="modalAmount"></span></p>
+        <p><strong>Tanggal:</strong> <span id="modalDate"></span></p>
+      </div>
     </div>
-  </section>
+  </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const buttons = document.querySelectorAll('.lihat-invoice');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', function () {
+        const invoiceId = this.dataset.billingid;
+        const amount = this.dataset.amount;
+        const date = this.dataset.date;
+
+        document.getElementById('modalInvoiceId').textContent = invoiceId;
+        document.getElementById('modalAmount').textContent = amount;
+        document.getElementById('modalDate').textContent = date;
+
+        const modal = new bootstrap.Modal(document.getElementById('invoiceModal'));
+        modal.show();
+      });
+    });
+  });
+</script>
 
   <!-- Riwayat Pemotongan (Histinvoice) -->
   <section>

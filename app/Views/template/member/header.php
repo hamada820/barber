@@ -7,7 +7,7 @@
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
+
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
         <a href="<?= base_url('/') ?>" class="nav-link btn btn-outline-theme ps-3 pe-3">Home</a>
@@ -18,8 +18,6 @@
         <a href="#location" class="nav-link btn btn-outline-theme ps-3 pe-3">Lokasi</a>
         <a href="#about" class="nav-link btn btn-outline-theme ps-3 pe-3">Tentang kami</a>
         <a href="<?= base_url('login') ?>" class="nav-link btn btn-outline-theme ps-3 pe-3">Login</a>
-
-       
       </div>
     </div>
   </div>

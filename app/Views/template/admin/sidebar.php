@@ -78,7 +78,7 @@
     <!-- Pages -->
     <li class="nav-item">
       <a class="nav-link collapsed" data-bs-target="#pages-nav" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-journal-text"></i><span>Pages</span><i class="bi bi-chevron-down ms-auto"></i>
+        <i class="bi bi-calculator"></i><span>Pages</span><i class="bi bi-chevron-down ms-auto"></i>
       </a>
       <ul id="pages-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
         <li>
@@ -102,18 +102,10 @@
       </a>
     </li>
 
-    <!-- Cut History -->
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="<?= base_url('admin/riwayat') ?>">
-        <i class="bi bi-card-list"></i>
-        <span>Cut History</span>
-      </a>
-    </li>
-
     <!-- Invoices -->
     <li class="nav-item">
       <a class="nav-link collapsed" href="<?= base_url('admin/invoices') ?>">
-        <i class="bi bi-envelope"></i>
+        <i class="bi bi-calculator"></i>
         <span>Invoices</span>
       </a>
     </li>
@@ -121,7 +113,7 @@
     <!-- Invoices -->
     <li class="nav-item">
       <a class="nav-link collapsed" href="<?= base_url('admin/invoice-produk') ?>">
-        <i class="bi bi-envelope"></i>
+        <i class="bi bi-calculator"></i>
         <span>Invoices produk</span>
       </a>
     </li>
@@ -129,35 +121,12 @@
 
     <li class="nav-item">
       <a class="nav-link collapsed" href="<?= base_url('admin/laporan') ?>">
-        <i class="bi bi-envelope"></i>
+        <i class="bi bi-file-earmark-bar-graph"></i>
         <span>Laporan</span>
       </a>
     </li>
 
-    <!-- Settings -->
-    <li class="nav-heading">Settings</li>
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="<?= base_url('admin/setting') ?>">
-        <i class="bi bi-person"></i>
-        <span>Settings</span>
-      </a>
-    </li>
-
-    <!-- Error 404 -->
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="<?= base_url('error/404') ?>">
-        <i class="bi bi-dash-circle"></i>
-        <span>Error 404</span>
-      </a>
-    </li>
-
     <!-- Blank Page -->
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="<?= base_url('pages/blank') ?>">
-        <i class="bi bi-file-earmark"></i>
-        <span>Blank</span>
-      </a>
-    </li>
-  </ul>
+
 </aside>
 <!-- End Sidebar -->

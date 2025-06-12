@@ -46,16 +46,24 @@
                                             <!-- Tombol Assign -->
                                             <?php if ($b['status'] == 'Menunggu'): ?>
                                                 <button type="button"
-                                                    class="btn btn-sm btn-success"
+                                                    class="btn btn-sm btn-success mb-1"
                                                     data-bs-toggle="modal"
                                                     data-bs-target="#confirmAssignModal<?= $b['id_booking'] ?>">
                                                     Assign
+                                                </button>
+                                                <br>
+                                                <!-- Tombol Assign Promo -->
+                                                <button type="button"
+                                                    class="btn btn-sm btn-warning mt-1"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#assignPromoModal<?= $b['id_booking'] ?>">
+                                                    Assign Promo
                                                 </button>
                                             <?php else: ?>
                                                 Sudah
                                             <?php endif ?>
 
-                                            <!-- Modal Konfirmasi -->
+                                            <!-- Modal Konfirmasi Assign (yang lama, tetap ada) -->
                                             <div class="modal fade"
                                                 id="confirmAssignModal<?= $b['id_booking'] ?>"
                                                 tabindex="-1"
@@ -70,21 +78,17 @@
                                                             </div>
                                                             <div class="modal-body">
                                                                 <p>Yakin ingin assign layanan untuk booking tanggal <strong><?= date('l, d F Y H:i', strtotime($b['tanggal'])) ?></strong>?</p>
-
-                                                                <!-- Input tanggal reschedule -->
                                                                 <div class="mb-3">
-                                                                    <label for="tanggal_reschedule_<?= $b['id_booking'] ?>" class="form-label">Tanggal Reschedule</label>
+                                                                    <label class="form-label">Tanggal Reschedule</label>
                                                                     <input type="datetime-local"
                                                                         name="tanggal"
-                                                                        id="tanggal_reschedule_<?= $b['id_booking'] ?>"
                                                                         class="form-control"
                                                                         value="<?= esc($b['tanggal']) ?>"
                                                                         required>
                                                                 </div>
-
                                                                 <?php if (empty($b['id_pegawai'])): ?>
                                                                     <div class="mb-3">
-                                                                        <label for="id_pegawai" class="form-label">Pilih Pegawai</label>
+                                                                        <label class="form-label">Pilih Pegawai</label>
                                                                         <select name="id_pegawai" class="form-select" required>
                                                                             <option value="">-- Pilih Pegawai --</option>
                                                                             <?php foreach ($pegawai as $pg): ?>
@@ -97,6 +101,55 @@
                                                             <div class="modal-footer">
                                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
                                                                 <button type="submit" class="btn btn-success">Yakin, Assign</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Modal Assign Promo -->
+                                            <div class="modal fade"
+                                                id="assignPromoModal<?= $b['id_booking'] ?>"
+                                                tabindex="-1"
+                                                aria-labelledby="assignPromoLabel<?= $b['id_booking'] ?>"
+                                                aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <form method="post" action="<?= base_url('kasir/booking-assign/' . $b['id_booking']) . '/true' ?>">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="assignPromoLabel<?= $b['id_booking'] ?>">Assign Promo</h5>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p><strong>Nama Member:</strong> <?= esc($b['username']) ?></p>
+                                                                <p><strong>Nama Layanan:</strong> <?= esc($b['ServiceName']) ?></p>
+                                                                <p><strong>Tanggal:</strong> <?= date('l, d F Y H:i', strtotime($b['tanggal'])) ?></p>
+
+                                                                <div class="mb-3">
+                                                                    <label for="harga_promo_<?= $b['id_booking'] ?>" class="form-label">Harga Promo</label>
+                                                                    <input type="number" name="harga_promo" class="form-control" id="harga_promo_<?= $b['id_booking'] ?>" required min="0">
+                                                                </div>
+                                                                <div class="mb-3">
+                                                                    <label class="form-label">Tanggal Reschedule</label>
+                                                                    <input type="datetime-local"
+                                                                        name="tanggal"
+                                                                        class="form-control"
+                                                                        value="<?= esc($b['tanggal']) ?>"
+                                                                        required>
+                                                                </div>
+                                                                <div class="mb-3">
+                                                                    <label for="id_pegawai_<?= $b['id_booking'] ?>" class="form-label">Pilih Pegawai</label>
+                                                                    <select name="id_pegawai" class="form-select" id="id_pegawai_<?= $b['id_booking'] ?>" required>
+                                                                        <option value="">-- Pilih Pegawai --</option>
+                                                                        <?php foreach ($pegawai as $pg): ?>
+                                                                            <option value="<?= $pg['id_pegawai'] ?>"><?= esc($pg['nama']) ?></option>
+                                                                        <?php endforeach ?>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                                                                <button type="submit" class="btn btn-warning">Simpan Promo</button>
                                                             </div>
                                                         </form>
                                                     </div>

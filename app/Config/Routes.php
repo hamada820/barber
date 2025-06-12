@@ -20,47 +20,52 @@ $routes->get('register', 'Auth::register');           // Tampilkan form register
 $routes->post('register', 'Auth::registerProcess');   // Proses register
 // EMAIL VERIFICATION
 $routes->get('verify', 'Auth::verify');         // Verifikasi email
-             // Verifikasi email
+// Verifikasi email
 
- // untuk proses autentikasi
+// untuk proses autentikasi
 
 
 
 //  route untuk halaman kasir
-$routes->group('kasir', ['filter' => 'role:kasir'], function($routes) {
+$routes->group('kasir', ['filter' => 'role:kasir'], function ($routes) {
     $routes->get('', 'Kasir::index');                         // /kasir
     $routes->get('booking', 'Kasir::booking');                // /kasir/riwayat
     $routes->post('booking-assign/(:num)', 'Kasir::bookingAssign/$1');                // /kasir/riwayat
+    $routes->post('booking-assign/(:num)/(:any)', 'Kasir::bookingAssign/$1/$2');                // /kasir/riwayat
     $routes->get('riwayat', 'Kasir::riwayat');                // /kasir/riwayat
-    $routes->get('riwayat/detail/(:num)', 'Kasir::detail/$1');// /kasir/riwayat/detail/xx
+    $routes->get('riwayat/detail/(:num)', 'Kasir::detail/$1'); // /kasir/riwayat/detail/xx
     $routes->get('deleteRiwayat/(:num)', 'Kasir::delete/$1');
     $routes->get('editRiwayat/(:num)', 'Kasir::editRiwayat/$1');
     $routes->post('updateRiwayat/(:num)', 'Kasir::updateRiwayat/$1');
     $routes->get('pelanggan', 'Kasir::pelanggan');            // /kasir/pelanggan
     $routes->get('assign/(:num)', 'Kasir::assign/$1');        // /kasir/assign/xx
-    $routes->post('assign/(:num)', 'Kasir::assignPost/$1');   // /kasir/assign/xx POST
-        // /kasir/absen/keluar
+    $routes->post('assign/(:num)', 'Kasir::assignPost/$1');
+    $routes->post('assign_promo/(:num)/(:any)', 'Kasir::assignPost/$1/$2');
+
+    // /kasir/assign/xx POST
+    // /kasir/absen/keluar
     $routes->get('kelola_pembelian', 'Kasir::kelolaPembelian');
     $routes->get('setujui-pembelian/(:num)', 'Kasir::setujuiPembelian/$1');
     $routes->get('tolak-pembelian/(:num)', 'Kasir::tolakPembelian/$1');
     $routes->post('create-invoice', 'Kasir::createInvoice');
 
-        // Invoice
+    // Invoice
 
     $routes->get('invoices', 'Kasir::invoiceList');           // /kasir/invoices
     $routes->get('view_invoices/(:num)', 'Kasir::view/$1');    // /kasir/invoice/view/xx
     $routes->post('deleteinvoice/(:num)', 'Kasir::deleteInvoice/$1');
     $routes->get('invoice-produk', 'Kasir::viewInvoiceProduk');
-$routes->get('invoiceprodukdetail/(:num)', 'Kasir::detailInvoiceProduk/$1');
+    $routes->get('invoiceprodukdetail/(:num)', 'Kasir::detailInvoiceProduk/$1');
+    $routes->post('deleteinvoiceproduk/(:num)', 'Kasir::deleteInvoiceProduk/$1');
 
- // /kasir/invoice/delete/xx
+    // /kasir/invoice/delete/xx
 });
 
 
- 
+
 
 // Route halaman admin dengan filter role:admin
-$routes->group('admin', ['filter' => 'role:admin'], function($routes) {
+$routes->group('admin', ['filter' => 'role:admin'], function ($routes) {
     $routes->get('/', 'Admin::index');
     // Layanan (Services)
     $routes->get('addservice', 'Admin::addService');
@@ -95,12 +100,12 @@ $routes->group('admin', ['filter' => 'role:admin'], function($routes) {
     $routes->post('updateAbout', 'Admin::updateAbout');
     $routes->get('editlocation', 'Admin::editLocation');
     $routes->post('updateLocation', 'Admin::updateLocation');
-        // Pembelian Produk oleh Member
+    // Pembelian Produk oleh Member
     $routes->get('kelola_pembelian', 'Admin::kelolaPembelian'); // untuk melihat semua pembelian
     $routes->get('setujui-pembelian/(:num)', 'Admin::setujuiPembelian/$1'); // setujui pembelian
     $routes->get('tolak-pembelian/(:num)', 'Admin::tolakPembelian/$1');
     $routes->get('invoice-produk', 'Admin::viewInvoice');
-    $routes->get('invoiceprodukdetail/(:num)', 'Admin::detailInvoice/$1');// tolak pembelian
+    $routes->get('invoiceprodukdetail/(:num)', 'Admin::detailInvoice/$1'); // tolak pembelian
     $routes->post('create-invoice', 'Admin::createInvoice');
 
     $routes->get('laporan', 'admin::laporan');
@@ -108,27 +113,26 @@ $routes->group('admin', ['filter' => 'role:admin'], function($routes) {
     $routes->get('laporan/export-penjualan', 'Admin::exportPenjualan');
 
     $routes->get('absen', 'Admin::absensi');
-
-
 });
-  
 
-$routes->group('member', ['filter' => 'rolefilter'], function($routes) {
+
+$routes->group('member', ['filter' => 'rolefilter'], function ($routes) {
     $routes->get('dashboard', 'Member::dashboard');
+    $routes->get('dashboard/(:num)', 'Member::invoiceHistory/$1');
     $routes->post('beli-produk', 'Member::beliProduk');
     $routes->post('beli-layanan', 'Member::beliLayanan');
-
 });
 
-$routes->group('pegawai', ['filter' => 'role:pegawai'], function($routes) {
+$routes->group('pegawai', ['filter' => 'role:pegawai'], function ($routes) {
     $routes->get('/', 'Pegawai::index');
     $routes->get('riwayat', 'Pegawai::riwayat');            // /kasir/riwayat
     $routes->get('riwayat/detail/(:num)', 'Pegawai::detail/$1'); // /kasir/riwayat/detail/xx
     $routes->get('editRiwayat/(:num)', 'Pegawai::editRiwayat/$1');
     $routes->post('updateRiwayat/(:num)', 'Pegawai::updateRiwayat/$1');
 });
-        // Absen
-    $routes->get('absen', 'Kasir::absen');                    // /kasir/absen
-    $routes->post('absen/hadir', 'Kasir::absenHadir');        // /kasir/absen/hadir
-    $routes->post('absen/hadir/(:any)', 'Kasir::absenHadir/$1');        // /kasir/absen/hadir
-    $routes->post('absen/keluar', 'Kasir::absenKeluar');     // /kasir/riwayat
+// Absen
+$routes->get('absen', 'Kasir::absen');                    // /kasir/absen
+$routes->post('absen/hadir', 'Kasir::absenHadir');        // /kasir/absen/hadir
+$routes->post('absen/hadir/(:any)', 'Kasir::absenHadir/$1');        // /kasir/absen/hadir
+$routes->post('absen/keluar', 'Kasir::absenKeluar');     // /kasir/riwayat
+$routes->post('update-profile', 'Auth::profileUpdate');     // /kasir/riwayat

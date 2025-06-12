@@ -28,7 +28,7 @@
                                             <td><?= esc($invoice['total']) ?></td>
                                             <td>
                                                 <a href="<?= base_url('kasir/invoiceprodukdetail/' . $invoice['id_tblinvoiceproduk']) ?>" class="btn btn-info btn-sm">Lihat</a>
-                                                <form action="<?= base_url('kasir/deleteinvoice/' . $invoice['id_tblinvoiceproduk']) ?>" method="post" class="d-inline" onsubmit="return confirm('Yakin ingin menghapus invoice ini?')">
+                                                <form action="<?= base_url('kasir/deleteinvoiceproduk/' . $invoice['id_tblinvoiceproduk']) ?>" method="post" class="d-inline" onsubmit="return confirm('Yakin ingin menghapus invoice ini?')">
                                                     <?= csrf_field() ?>
                                                     <button type="submit" class="btn btn-danger btn-sm">Hapus</button>
                                                 </form>

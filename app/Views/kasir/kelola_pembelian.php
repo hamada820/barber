@@ -82,9 +82,7 @@
               Buat Invoice
             </button>
           </div>
-
         <?= form_close() ?>
-
       </div>
     </div>
   </section>

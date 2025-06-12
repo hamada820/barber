@@ -4,12 +4,12 @@
       <div class="col-md-5">
         <span id='about'></span>
         <?php if (!empty($aboutData)): ?>
-  <?php foreach ($aboutData as $row): ?>
-    <img src="<?= base_url('assets/img/logokharisma.png') ?>" width="71" alt="Logo Kharisma Barbershop"> 
-    <span class="fw-bold"><?= esc($row['PageTitle']) ?></span>
-    <p class="text-muted"><?= esc($row['PageDescription']) ?></p>
-  <?php endforeach; ?>
-<?php endif; ?>
+          <?php foreach ($aboutData as $row): ?>
+            <img src="<?= base_url('assets/img/logokharisma.png') ?>" width="71" alt="Logo Kharisma Barbershop">
+            <span class="fw-bold"><?= esc($row['PageTitle']) ?></span>
+            <p class="text-muted"><?= esc($row['PageDescription']) ?></p>
+          <?php endforeach; ?>
+        <?php endif; ?>
 
       </div>
 
@@ -43,7 +43,7 @@
 
     <p class="text-center mt-2">
       Copyright &copy;
-      <strong><?= date('Y'); ?></strong> All rights reserved | F.R.
+      <strong><?= date('Y'); ?></strong> All rights reserved | Hamada.
     </p>
   </div>
 </section>
