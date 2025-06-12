@@ -16,10 +16,7 @@ class TablesMigration extends Migration
             'email'      => ['type' => 'VARCHAR', 'constraint' => 255],
             'password'   => ['type' => 'TEXT'],
             'role'       => ['type' => 'ENUM("Admin","Kasir","Member","Pegawai")'],
-            'RegDate' => [
-                'type' => 'DATETIME',
-                'default' => date('Y-m-d H:i:s')
-            ],
+            'RegDate'    => ['type' => 'DATETIME', 'default' => date('Y-m-d H:i:s')],
             'is_active'  => ['type' => 'TINYINT', 'constraint' => 1],
         ]);
         $this->forge->addKey('id_user', true);
@@ -40,13 +37,13 @@ class TablesMigration extends Migration
 
         // 3. tblservices
         $this->forge->addField([
-            'id_service'        => ['type' => 'INT', 'auto_increment' => true],
-            'ServiceName'       => ['type' => 'VARCHAR', 'constraint' => 200, 'null' => true],
-            'ServiceDescription' => ['type' => 'TEXT', 'null' => true],
-            'Cost'              => ['type' => 'INT', 'null' => true],
-            'Image'             => ['type' => 'VARCHAR', 'constraint' => 200, 'null' => true],
-            'Bookable'          => ['type' => 'TINYINT', 'constraint' => 1],
-            'CreationDate'      => ['type' => 'TIMESTAMP', 'default' => date('Y-m-d H:i:s'), 'null' => true],
+            'id_service'         => ['type' => 'INT', 'auto_increment' => true],
+            'ServiceName'         => ['type' => 'VARCHAR', 'constraint' => 200, 'null' => true],
+            'ServiceDescription'  => ['type' => 'TEXT', 'null' => true],
+            'Cost'                => ['type' => 'INT', 'null' => true],
+            'Image'               => ['type' => 'VARCHAR', 'constraint' => 200, 'null' => true],
+            'Bookable'            => ['type' => 'TINYINT', 'constraint' => 1],
+            'CreationDate'        => ['type' => 'TIMESTAMP', 'default' => date('Y-m-d H:i:s'), 'null' => true],
         ]);
         $this->forge->addKey('id_service', true);
         $this->forge->createTable('tblservices');
@@ -90,9 +87,9 @@ class TablesMigration extends Migration
 
         // 7. email_verifications
         $this->forge->addField([
-            'id'        => ['type' => 'INT', 'auto_increment' => true],
-            'email'     => ['type' => 'VARCHAR', 'constraint' => 255],
-            'token'     => ['type' => 'VARCHAR', 'constraint' => 255],
+            'id'         => ['type' => 'INT', 'auto_increment' => true],
+            'email'      => ['type' => 'VARCHAR', 'constraint' => 255],
+            'token'      => ['type' => 'VARCHAR', 'constraint' => 255],
             'created_at' => ['type' => 'DATETIME'],
         ]);
         $this->forge->addKey('id', true);
@@ -157,7 +154,20 @@ class TablesMigration extends Migration
         $this->forge->addForeignKey('id_pegawai', 'tblpegawai', 'id_pegawai');
         $this->forge->createTable('tblhistory');
 
-        // 12. tblpage
+        // 12. nonmember
+        $this->forge->addField([
+            'id_nonmember' => ['type' => 'INT', 'auto_increment' => true],
+            'id_service'   => ['type' => 'INT'],
+            'id_pegawai'   => ['type' => 'INT'],
+            'ciri'         => ['type' => 'VARCHAR', 'constraint' => 255, 'null' => true],
+            'tanggal'      => ['type' => 'TIMESTAMP'],
+        ]);
+        $this->forge->addKey('id_nonmember', true);
+        $this->forge->addForeignKey('id_pegawai', 'tblpegawai', 'id_pegawai');
+        $this->forge->addForeignKey('id_service', 'tblservices', 'id_service');
+        $this->forge->createTable('nonmember');
+
+        // 13. tblpage
         $this->forge->addField([
             'ID'              => ['type' => 'INT', 'auto_increment' => true],
             'PageType'        => ['type' => 'VARCHAR', 'constraint' => 200, 'null' => true],
@@ -166,23 +176,13 @@ class TablesMigration extends Migration
         ]);
         $this->forge->addKey('ID', true);
         $this->forge->createTable('tblpage');
-
-        $this->db->table('tblhistory')->truncate();
-        $this->db->table('tblinvoice')->truncate();
-        $this->db->table('pembelian')->truncate();
-        $this->db->table('tblinvoiceproduk')->truncate();
-        $this->db->table('email_verifications')->truncate();
-        $this->db->table('absen')->truncate();
-        $this->db->table('booking')->truncate();
-        $this->db->table('tblproduk')->truncate();
-        $this->db->table('tblservices')->truncate();
-        $this->db->table('tblpegawai')->truncate();
-        $this->db->table('tblpage')->truncate();
-        $this->db->table('users')->truncate();
     }
 
     public function down()
     {
+        // Drop tables in reverse order (child first, parent last)
+        $this->forge->dropTable('tblpage', true);
+        $this->forge->dropTable('nonmember', true);
         $this->forge->dropTable('tblhistory', true);
         $this->forge->dropTable('tblinvoice', true);
         $this->forge->dropTable('pembelian', true);
@@ -193,7 +193,6 @@ class TablesMigration extends Migration
         $this->forge->dropTable('tblproduk', true);
         $this->forge->dropTable('tblservices', true);
         $this->forge->dropTable('tblpegawai', true);
-        $this->forge->dropTable('tblpage', true);
         $this->forge->dropTable('users', true);
     }
 }

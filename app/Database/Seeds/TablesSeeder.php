@@ -15,7 +15,7 @@ class TablesSeeder extends Seeder
                 'username' => 'hamada',
                 'number' => 824182818,
                 'email' => 'm.fadil.hamada@mhs.politala.ac.id',
-                'password' => '$2y$10$3AAQkoH6peACcg.PpxqR9uItFnE21q9xRzyA1a9bwMxwThlTeWGje',
+                'password' => '$2y$10$XOkKI8eSM0X9K9siCRuMs.xTfURT0z51x.cYGZRt9iImZFuZ9cK5G',
                 'role' => 'Member',
                 'RegDate' => '2025-05-22 05:04:38',
                 'is_active' => 1
@@ -25,7 +25,7 @@ class TablesSeeder extends Seeder
                 'username' => 'kharisma',
                 'number' => 81385757522,
                 'email' => 'kharismabarbershp@gmail.com',
-                'password' => '$2y$10$dLg/37xDHq12LpsuaPsROOkCTYoteFoXwjCvwPK6zdsHlQBL.xSR6',
+                'password' => '$2y$10$XOkKI8eSM0X9K9siCRuMs.xTfURT0z51x.cYGZRt9iImZFuZ9cK5G',
                 'role' => 'Admin',
                 'RegDate' => '2025-05-22 18:34:32',
                 'is_active' => 1
@@ -35,17 +35,17 @@ class TablesSeeder extends Seeder
                 'username' => 'fadil_pegawai',
                 'number' => 81234567890,
                 'email' => 'fadil@pegawai.com',
-                'password' => '$2y$10$dLg/37xDHq12LpsuaPsROOkCTYoteFoXwjCvwPK6zdsHlQBL.xSR6',
+                'password' => '$2y$10$XOkKI8eSM0X9K9siCRuMs.xTfURT0z51x.cYGZRt9iImZFuZ9cK5G',
                 'role' => 'Pegawai',
                 'RegDate' => '2025-05-23 10:00:00',
                 'is_active' => 1
             ],
             [
                 'id_user' => 76,
-                'username' => 'utuh_pegawai',
+                'username' => 'kasir',
                 'number' => 81234567891,
-                'email' => 'utuh@pegawai.com',
-                'password' => '$2y$10$dLg/37xDHq12LpsuaPsROOkCTYoteFoXwjCvwPK6zdsHlQBL.xSR6',
+                'email' => 'utuh@kasir.com',
+                'password' => '$2y$10$XOkKI8eSM0X9K9siCRuMs.xTfURT0z51x.cYGZRt9iImZFuZ9cK5G',
                 'role' => 'Pegawai',
                 'RegDate' => '2025-05-23 10:05:00',
                 'is_active' => 1

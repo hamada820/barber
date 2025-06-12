@@ -2,17 +2,18 @@
 
 namespace App\Controllers;
 
-use CodeIgniter\I18n\Time;
 use Config\Services;
 use App\Models\Absen;
-use App\Models\ServiceModel;
-use App\Models\UserModel;
-use App\Models\HistoryModel;
-use App\Models\PegawaiModel;
-use App\Models\InvoiceModel;
-use App\Models\InvoiceProduk;
 use App\Models\Booking;
+use App\Models\Nonmember;
+use App\Models\UserModel;
+use CodeIgniter\I18n\Time;
 use CodeIgniter\Controller;
+use App\Models\HistoryModel;
+use App\Models\InvoiceModel;
+use App\Models\PegawaiModel;
+use App\Models\ServiceModel;
+use App\Models\InvoiceProduk;
 
 class Kasir extends BaseController
 {
@@ -23,6 +24,7 @@ class Kasir extends BaseController
     protected $bookingModel;
     protected $absenModel;
     protected $invoiceModel;
+    protected $Nonmember;
     protected $invoiceProdukModel;
 
     public function __construct()
@@ -31,6 +33,7 @@ class Kasir extends BaseController
         $this->layananModel  = new ServiceModel(); // nama modelmu untuk layanan
         $this->bookingModel  = new Booking(); // nama modelmu untuk layanan
         $this->pegawaiModel  = new PegawaiModel(); // pastikan model ini sudah ada
+        $this->Nonmember  = new Nonmember(); // pastikan model ini sudah ada
         $this->historyModel  = new HistoryModel(); // pastikan model ini sudah ada
         $this->userModel  = new UserModel(); // pastikan model ini sudah ada
         $this->invoiceModel = new InvoiceModel();
@@ -80,6 +83,57 @@ class Kasir extends BaseController
     {
         $data['users'] = $this->userModel->where('role', 'member')->findAll();
         return view('kasir/pelanggan', $data);
+    }
+    public function nonpelanggan()
+    {
+        $data['data'] = $this->Nonmember->findAll();
+        $data['pegawaiList'] = $this->pegawaiModel->findAll();
+        $data['services'] = $this->layananModel->findAll();
+        return view('kasir/nonpelanggan', $data);
+    }
+
+    public function storeNonMember()
+    {
+        try {
+            $data = [
+                'id_pegawai' => $this->request->getPost('id_pegawai'),
+                'id_service' => $this->request->getPost('id_service'),
+                'ciri' => $this->request->getPost('ciri'),
+                'tanggal' => $this->request->getPost('tanggal'),
+            ];
+
+            $this->Nonmember->insert($data);
+            return redirect()->to('/kasir/nonpelanggan')->with('success', 'Data berhasil ditambahkan');
+        } catch (\Exception $e) {
+            return redirect()->back()->with('error', 'Gagal menambahkan data: ' . $e->getMessage());
+        }
+    }
+
+    public function updateNonMember($id)
+    {
+        try {
+            $data = [
+                'id_pegawai' => $this->request->getPost('id_pegawai'),
+                'id_service' => $this->request->getPost('id_service'),
+                'ciri' => $this->request->getPost('ciri'),
+                'tanggal' => $this->request->getPost('tanggal'),
+            ];
+
+            $this->Nonmember->update($id, $data);
+            return redirect()->to('/kasir/nonpelanggan')->with('success', 'Data berhasil diperbarui');
+        } catch (\Exception $e) {
+            return redirect()->back()->with('error', 'Gagal memperbarui data: ' . $e->getMessage());
+        }
+    }
+
+    public function deleteNonMember($id)
+    {
+        try {
+            $this->Nonmember->delete($id);
+            return redirect()->to('/kasir/nonpelanggan')->with('success', 'Data berhasil dihapus');
+        } catch (\Exception $e) {
+            return redirect()->back()->with('error', 'Gagal menghapus data: ' . $e->getMessage());
+        }
     }
 
 
@@ -479,7 +533,7 @@ class Kasir extends BaseController
         return view('kasir/invoiceprodukdetail', $data);
     }
 
-       public function deleteInvoiceproduk($id)
+    public function deleteInvoiceproduk($id)
     {
         $this->invoiceProdukModel->delete($id);
         return redirect()->to('/kasir/invoice-produk')->with('info', 'Invoice berhasil dihapus.');

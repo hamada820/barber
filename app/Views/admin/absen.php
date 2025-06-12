@@ -25,10 +25,12 @@
                                     <th>Nama Pegawai</th>
                                     <th>Waktu Absen</th>
                                     <th>Tipe</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php $no = 1; foreach ($absensi as $a) : ?>
+                                <?php $no = 1;
+                                foreach ($absensi as $a) : ?>
                                     <tr>
                                         <td><?= $no++ ?></td>
                                         <td><?= esc($a['username']) ?></td>
@@ -37,13 +39,23 @@
                                             <span class="badge <?= $a['tipe'] === 'Hadir' ? 'bg-success' : 'bg-warning' ?>">
                                                 <?= ucfirst($a['tipe']) ?>
                                             </span>
-                                        </td>   
+                                        </td>
+                                        <td>
+                                            <select class="form-select form-select-sm tipe-select"
+                                                data-userid="<?= $a['id_user'] ?>">
+                                                <option value="">Pilih Tipe</option>
+                                                <option value="Hadir" <?= $a['tipe'] === 'Hadir' ? 'selected' : '' ?>>Hadir
+                                                </option>
+                                                <option value="Libur" <?= $a['tipe'] === 'Libur' ? 'selected' : '' ?>>Libur
+                                                </option>
+                                            </select>
+                                        </td>
                                     </tr>
                                 <?php endforeach; ?>
 
                                 <?php if (empty($absensi)) : ?>
                                     <tr>
-                                        <td colspan="4" class="text-center">Tidak ada data absensi.</td>
+                                        <td colspan="5" class="text-center">Tidak ada data absensi.</td>
                                     </tr>
                                 <?php endif; ?>
                             </tbody>
@@ -55,5 +67,22 @@
         </div>
     </section>
 </main>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const selects = document.querySelectorAll('.tipe-select');
+
+        selects.forEach(select => {
+            select.addEventListener('change', function() {
+                const tipe = this.value;
+                const userId = this.getAttribute('data-userid');
+
+                if (tipe) {
+                    window.location.href = `<?= base_url('change_absen/') ?>${tipe}/${userId}`;
+                }
+            });
+        });
+    });
+</script>
 
 <?= $this->include('template/admin/footer') ?>

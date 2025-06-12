@@ -38,6 +38,10 @@ $routes->group('kasir', ['filter' => 'role:kasir'], function ($routes) {
     $routes->get('editRiwayat/(:num)', 'Kasir::editRiwayat/$1');
     $routes->post('updateRiwayat/(:num)', 'Kasir::updateRiwayat/$1');
     $routes->get('pelanggan', 'Kasir::pelanggan');            // /kasir/pelanggan
+    $routes->get('nonpelanggan', 'Kasir::nonpelanggan');            // /kasir/pelanggan
+    $routes->post('nonpelanggan/store', 'Kasir::storeNonMember');
+    $routes->put('nonpelanggan/update/(:num)', 'Kasir::updateNonMember/$1');
+    $routes->delete('nonpelanggan/delete/(:num)', 'Kasir::deleteNonMember/$1');
     $routes->get('assign/(:num)', 'Kasir::assign/$1');        // /kasir/assign/xx
     $routes->post('assign/(:num)', 'Kasir::assignPost/$1');
     $routes->post('assign_promo/(:num)/(:any)', 'Kasir::assignPost/$1/$2');
@@ -135,4 +139,6 @@ $routes->get('absen', 'Kasir::absen');                    // /kasir/absen
 $routes->post('absen/hadir', 'Kasir::absenHadir');        // /kasir/absen/hadir
 $routes->post('absen/hadir/(:any)', 'Kasir::absenHadir/$1');        // /kasir/absen/hadir
 $routes->post('absen/keluar', 'Kasir::absenKeluar');     // /kasir/riwayat
+$routes->get('change_absen/(:any)/(:num)', 'Admin::change_absen/$1/$2');     // /kasir/riwayat
+
 $routes->post('update-profile', 'Auth::profileUpdate');     // /kasir/riwayat

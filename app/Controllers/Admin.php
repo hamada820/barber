@@ -32,7 +32,7 @@ class Admin extends BaseController
     protected $invoiceProdukModel;
     protected $absenModel;
 
-    
+
 
     public function __construct()
     {
@@ -42,6 +42,7 @@ class Admin extends BaseController
         $this->historyModel  = new HistoryModel();
         $this->productModel  = new ProductModel();
         $this->invoiceModel  = new InvoiceModel();
+        $this->absenModel  = new Absen();
         $this->pageModel     = new PageModel(); // <--- konsisten
         $this->pembelianModel     = new PembelianModel(); // <--- konsisten
         $this->invoiceProdukModel     = new InvoiceProduk(); // <--- konsisten
@@ -702,134 +703,139 @@ class Admin extends BaseController
             return redirect()->to(base_url('admin/invoice-produk'));
         }
     }
-    public function viewInvoice(){
-        $data =[
-            'data' => $this->invoiceProdukModel->findAll(), 
+    public function viewInvoice()
+    {
+        $data = [
+            'data' => $this->invoiceProdukModel->findAll(),
         ];
         return view('admin/invoice-produk', $data);
     }
-    public function detailInvoice($id){
-        $data =[
+    public function detailInvoice($id)
+    {
+        $data = [
             'id_invoiceproduk' => $id,
-            'data' => $this->pembelianModel->where('id_invoiceproduk',$id)->join('users','users.id_user = pembelian.id_user')->join('tblproduk','tblproduk.id_produk = pembelian.id_produk')->findAll(), 
+            'data' => $this->pembelianModel->where('id_invoiceproduk', $id)->join('users', 'users.id_user = pembelian.id_user')->join('tblproduk', 'tblproduk.id_produk = pembelian.id_produk')->findAll(),
         ];
         return view('admin/invoiceprodukdetail', $data);
     }
 
     public function laporan()
-{
-    $historyModel = new \App\Models\HistoryModel();
+    {
+        $historyModel = new \App\Models\HistoryModel();
 
-    $data['laporan'] = $historyModel->getLaporanPerPegawai();
+        $data['laporan'] = $historyModel->getLaporanPerPegawai();
 
-    return view('admin/laporan', $data);
-}
-
- 
-
-public function exportExcel()
-{
-    $historyModel = new HistoryModel();
-
-    $data = $historyModel
-        ->select('tblhistory.*, users.username, tblpegawai.nama as nama_pegawai, tblservices.ServiceName')
-        ->join('users', 'users.id_user = tblhistory.id_user')
-        ->join('tblpegawai', 'tblpegawai.id_pegawai = tblhistory.id_pegawai', 'left')
-        ->join('tblservices', 'tblservices.id_service = tblhistory.id_service')
-        ->orderBy('tblhistory.tanggal', 'DESC')
-        ->findAll();
-
-    $spreadsheet = new Spreadsheet();
-    $sheet = $spreadsheet->getActiveSheet();
-
-    // Set header kolom
-    $sheet->setCellValue('A1', 'No');
-    $sheet->setCellValue('B1', 'Tanggal');
-    $sheet->setCellValue('C1', 'Member');
-    $sheet->setCellValue('D1', 'Layanan');
-    $sheet->setCellValue('E1', 'Pegawai');
-    
-
-    $row = 2;
-    $no = 1;
-    foreach ($data as $d) {
-        $sheet->setCellValue('A' . $row, $no++);
-        $sheet->setCellValue('B' . $row, $d['tanggal']);
-        $sheet->setCellValue('C' . $row, $d['username']);
-        $sheet->setCellValue('D' . $row, $d['ServiceName']);
-        $sheet->setCellValue('E' . $row, $d['nama_pegawai'] ?? 'Belum assign');
-        
-        $row++;
+        return view('admin/laporan', $data);
     }
 
-    // Unduh file
-    $filename = 'laporan-history.xlsx';
-    header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-    header('Content-Disposition: attachment;filename="' . $filename . '"');
-    header('Cache-Control: max-age=0');
-
-    $writer = new Xlsx($spreadsheet);
-    $writer->save('php://output');
-    exit;
-}
-
-public function exportPenjualan()
-{
-    $penjualanModel = new \App\Models\PembelianModel(); // sesuaikan modelnya
-
-    // Ambil data penjualan, sesuaikan dengan tabel dan kolom yang kamu punya
-   $data = $penjualanModel
-    ->select('pembelian.*, tblproduk.nama_produk, tblproduk.harga')
-    ->join('tblproduk', 'tblproduk.id_produk = pembelian.id_produk')
-    ->orderBy('pembelian.tanggal', 'DESC')
-    ->findAll();
 
 
-    $spreadsheet = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
-    $sheet = $spreadsheet->getActiveSheet();
+    public function exportExcel()
+    {
+        $historyModel = new HistoryModel();
 
-    // Header kolom
-    $sheet->setCellValue('A1', 'No');
-    $sheet->setCellValue('B1', 'Tanggal');
-    $sheet->setCellValue('C1', 'Produk');
-    $sheet->setCellValue('D1', 'Jumlah');
-    $sheet->setCellValue('E1', 'Harga');
-    $sheet->setCellValue('F1', 'Total');
+        $data = $historyModel
+            ->select('tblhistory.*, users.username, tblpegawai.nama as nama_pegawai, tblservices.ServiceName')
+            ->join('users', 'users.id_user = tblhistory.id_user')
+            ->join('tblpegawai', 'tblpegawai.id_pegawai = tblhistory.id_pegawai', 'left')
+            ->join('tblservices', 'tblservices.id_service = tblhistory.id_service')
+            ->orderBy('tblhistory.tanggal', 'DESC')
+            ->findAll();
+
+        $spreadsheet = new Spreadsheet();
+        $sheet = $spreadsheet->getActiveSheet();
+
+        // Set header kolom
+        $sheet->setCellValue('A1', 'No');
+        $sheet->setCellValue('B1', 'Tanggal');
+        $sheet->setCellValue('C1', 'Member');
+        $sheet->setCellValue('D1', 'Layanan');
+        $sheet->setCellValue('E1', 'Pegawai');
 
 
-    $row = 2;
-    $no = 1;
-    foreach ($data as $d) {
-        $sheet->setCellValue('A' . $row, $no++);
-        $sheet->setCellValue('B' . $row, $d['tanggal']);
-        $sheet->setCellValue('C' . $row, $d['nama_produk']);
-        $sheet->setCellValue('D' . $row, $d['jumlah']);
-        $sheet->setCellValue('E' . $row, $d['harga']);
-        $sheet->setCellValue('F' . $row, $d['jumlah'] * $d['harga']);
-        
-        $row++;
+        $row = 2;
+        $no = 1;
+        foreach ($data as $d) {
+            $sheet->setCellValue('A' . $row, $no++);
+            $sheet->setCellValue('B' . $row, $d['tanggal']);
+            $sheet->setCellValue('C' . $row, $d['username']);
+            $sheet->setCellValue('D' . $row, $d['ServiceName']);
+            $sheet->setCellValue('E' . $row, $d['nama_pegawai'] ?? 'Belum assign');
+
+            $row++;
+        }
+
+        // Unduh file
+        $filename = 'laporan-history.xlsx';
+        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        header('Content-Disposition: attachment;filename="' . $filename . '"');
+        header('Cache-Control: max-age=0');
+
+        $writer = new Xlsx($spreadsheet);
+        $writer->save('php://output');
+        exit;
     }
 
-    $filename = 'laporan-penjualan-' . date('Ymd_His') . '.xlsx';
+    public function exportPenjualan()
+    {
+        $penjualanModel = new \App\Models\PembelianModel(); // sesuaikan modelnya
 
-    // Headers untuk download
-    header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-    header('Content-Disposition: attachment; filename="' . $filename . '"');
-    header('Cache-Control: max-age=0');
-
-    $writer = new \PhpOffice\PhpSpreadsheet\Writer\Xlsx($spreadsheet);
-    $writer->save('php://output');
-    exit;
-}
-
+        // Ambil data penjualan, sesuaikan dengan tabel dan kolom yang kamu punya
+        $data = $penjualanModel
+            ->select('pembelian.*, tblproduk.nama_produk, tblproduk.harga')
+            ->join('tblproduk', 'tblproduk.id_produk = pembelian.id_produk')
+            ->orderBy('pembelian.tanggal', 'DESC')
+            ->findAll();
 
 
-public function absensi()
-{
-    $absenModel = new Absen();
-    $data['absensi'] = $absenModel->getAllAbsensi();
+        $spreadsheet = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
+        $sheet = $spreadsheet->getActiveSheet();
 
-    return view('admin/absen', $data);
-}
+        // Header kolom
+        $sheet->setCellValue('A1', 'No');
+        $sheet->setCellValue('B1', 'Tanggal');
+        $sheet->setCellValue('C1', 'Produk');
+        $sheet->setCellValue('D1', 'Jumlah');
+        $sheet->setCellValue('E1', 'Harga');
+        $sheet->setCellValue('F1', 'Total');
 
+
+        $row = 2;
+        $no = 1;
+        foreach ($data as $d) {
+            $sheet->setCellValue('A' . $row, $no++);
+            $sheet->setCellValue('B' . $row, $d['tanggal']);
+            $sheet->setCellValue('C' . $row, $d['nama_produk']);
+            $sheet->setCellValue('D' . $row, $d['jumlah']);
+            $sheet->setCellValue('E' . $row, $d['harga']);
+            $sheet->setCellValue('F' . $row, $d['jumlah'] * $d['harga']);
+
+            $row++;
+        }
+
+        $filename = 'laporan-penjualan-' . date('Ymd_His') . '.xlsx';
+
+        // Headers untuk download
+        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        header('Content-Disposition: attachment; filename="' . $filename . '"');
+        header('Cache-Control: max-age=0');
+
+        $writer = new \PhpOffice\PhpSpreadsheet\Writer\Xlsx($spreadsheet);
+        $writer->save('php://output');
+        exit;
+    }
+
+    public function absensi()
+    {
+        $absenModel = new Absen();
+        $data['absensi'] = $absenModel->getAllAbsensi();
+
+        return view('admin/absen', $data);
+    }
+
+    public function change_absen($tipe, $id_user)
+    {
+        $this->absenModel->where('id_user', $id_user)->set('tipe', $tipe)->update();
+        return redirect()->back();
+    }
 }
