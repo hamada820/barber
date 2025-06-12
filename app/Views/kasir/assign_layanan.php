@@ -28,7 +28,7 @@
                                     <td><?= esc($service['ServiceName']) ?></td>
                                     <td>Rp. <?= number_format($service['Cost']) ?></td>
                                     <td class="text-center">
-                                        <input type="checkbox" name="sids[]" value="<?= $service['id_service'] ?>">
+                                        <input type="radio" name="sids[]" value="<?= $service['id_service'] ?>">
                                     </td>
                                 </tr>
                             <?php endforeach ?>
@@ -47,7 +47,8 @@
 
                     <div class="text-end">
                         <button type="submit" class="btn btn-primary">Assign</button>
-                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#promoModal">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#promoModal">
                             Assign Promo
                         </button>
                         <a href="<?= base_url('kasir/pelanggan') ?>" class="btn btn-secondary">Kembali</a>
@@ -62,7 +63,7 @@
 <!-- Modal Assign Promo -->
 <div class="modal fade" id="promoModal" tabindex="-1" aria-labelledby="promoModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
-        <form method="post" action="<?= base_url('kasir/assign_promo/' . $user['id_user']) . '/promo'?>">
+        <form method="post" action="<?= base_url('kasir/assign_promo/' . $user['id_user']) . '/promo' ?>">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="promoModalLabel">Assign Promo untuk <?= esc($user['username']) ?></h5>
